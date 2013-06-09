@@ -1,0 +1,42 @@
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  License: CC Attribution 3.0 http://creativecommons.org/licenses/by/3.0/
+ *   
+ *  CREDITS: Big thanks & kudos to these awesome projects!
+ * 
+ *  - YAML 4 CSS Framework - http://www.yaml.de/
+ *  - YAML 4 SASS - https://github.com/djesse/yaml4-sass
+ *  - Bones - http://themble.com/bones/
+ *  - required+ Foundation  - http://themes.required.ch/
+ * 
+ *  YAML, YAML 4 SASS and WP YAML all come together in this style.scss, which compiles into css/style.css that is used in the template.
+ * 
+ * Plain CSS users can simply rename css/style-cssplain.css to css/style.css and edit that file.
+ * 
+ * The theme currently only uses a flexible grids full page layout. Different layout versions may be added in the future. 
+ * 
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ */
+   
+/* Google Font API 
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Droid+Sans:700");*/
+
+/* YAML4-SASS  */
+@import "yaml/yaml_globals",
+		"yaml/mixins/yaml_mixins_core",
+		"yaml/core/base",
+		"yaml/navigation/hlist",	
+		"yaml/forms/gray-theme", 
+		"yaml/screen/typography",
+		"yaml/screen/screen-FULLPAGE-layout",
+		"yaml/print/print";
+
+/* WP-YAML */
+@import "wpyaml/wpyaml";
+
+  
+/* Your Custom Styles */
+@import "custom";

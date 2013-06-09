@@ -1,0 +1,31 @@
+/* required+ Foundation is a responsive WordPress starter theme based on the YAML CSS framework. */
+
+/* TEAM */
+
+Peter Hadorn & Hadorn AG Team
+http://www.hadornag.ch
+Twitter: @peterhadorn
+WP YAML: http://wpyaml.com
+
+/* THANKS */
+
+YAML
+http://yaml.de/
+
+YAML 4 SASS
+https://github.com/djesse/yaml4-sass
+
+BONES
+http://themble.com/bones/
+
+required+ Foundation
+http://themes.required.ch/
+
+WordPress
+http://wordpress.org/
+
+/* SITE */
+
+Standards: HTML5, CSS3
+Components: Jquery, etc
+CMS: WordPress

@@ -1,0 +1,32 @@
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for comments styling.
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+ */
+ 
+#comments nav ul {
+  @extend ul.page-numbers;
+}  
+#comments nav {
+  background: transparent;
+  color: $text-color;
+  } 
+#comments ol {
+  font-weight: 700;
+  li {
+    margin:2em 0 0 1.5em;
+    &:first-child {
+    margin:1em 0 0 1.5em;
+    }
+    article {
+    font-weight: 400;
+    }
+  } 
+}  

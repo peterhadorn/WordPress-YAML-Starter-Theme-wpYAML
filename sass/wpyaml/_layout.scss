@@ -1,0 +1,64 @@
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for the layout styles.
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+/* WP-YAML custom layout variables */
+
+$total-site-width				: 1000px; /* You can use any em, px and % values here! */
+$main-column-padding		: 10px; /* You can use any em, px and % values here! */
+$base-font-scale			: 1; /* Experimental feature - don't change this value unless you understand what you're doing... */
+  
+/* BOX-SIZING lib/vendor/boxsizing.htc */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; *behavior: url(wp-content/themes/wp-yaml/lib/vendor/boxsizing.htc); }
+
+/* TOTAL SITE WIDTH */
+.ym-wrapper {
+		max-width: $total-site-width;
+	}
+
+/* MAIN COLUMN PADDING */
+.header, .main, .sidebar, .footer {
+		padding: 0 $main-column-padding;
+	}
+
+/* LINEARIZATION LEVEL 1 */
+@media screen and (max-width: 760px) {
+  /* linearization for grid module */
+  .linearize-level-1 {
+    display: block;
+    float: none;
+    padding: 0 $main-column-padding;
+    margin: 0;
+    width: 100% !important;
+    > [class*="ym-g"] {
+      display: block;
+      float: none;
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+      > [class*="ym-gbox"] {
+        overflow: hidden;
+        /* optional for containing floats */
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}	
+
+/* FONT SCALING */
+body {
+    font-size: $base-font-scale * 100%;
+  }  
+
+/* SMALL FONT SIZE */
+small, p.small {
+  font-size: ($text-small-font-size/$browser-default-font-size)*100%;
+}

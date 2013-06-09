@@ -1,0 +1,31 @@
+/*  Welcome to WP-YAML :)
+ *  URL: htp://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for forms styling.
+ */
+
+/* Hide label in search Form */
+div.ym-fbox-text label.hide {
+  display:none;
+}
+
+/* Forms div */
+input, textarea {
+    font-family: $font-serif;
+  }
+#commentform  {
+  width:50%;
+  .ym-fbox-text {
+  margin-top:1em;
+  input, textarea {
+    line-height: 1em;
+    padding: .25em .3em;
+    }
+  }
+}
+#searchform {
+  @extend #commentform;
+}

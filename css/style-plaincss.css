@@ -1,0 +1,29 @@
+/**
+ * TESTETSTETSTSTS mit YAML 4 plain
+ * ADD CREDITS EXPLANATIONS ETC
+ * @author        $Peter Hadorn$
+ * @revision       $Revision: 01 $
+ * @Copyright 	  Copyright 2013, Peter Hadorn
+ * @license        GNU
+ * @link               http://wpyaml.com
+ * @package     wpyaml
+ * @version        v0.1
+ */
+/* Google Font API */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Droid+Sans:700);
+
+/* import core styles | Basis-Stylesheets einbinden */
+@import url(yaml/core/base.css);
+@import url(yaml/navigation/hlist.css);
+@import url(yaml/forms/gray-theme.css);
+@import url(yaml/screen/typography.css);
+@import url(yaml/screen/screen-FULLPAGE-layout.css);
+
+/* import print layout | Druck-Layout einbinden */
+@import url(yaml/print/print.css);
+
+/* Custom CSS */
+
+.ym-wrapper {
+		max-width: 100em;
+}		

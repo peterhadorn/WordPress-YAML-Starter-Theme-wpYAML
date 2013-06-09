@@ -1,0 +1,23 @@
+/******************************************************************
+Theme Name: WP YAML
+Theme URI: http://wpyaml.com/
+Author: Peter Hadorn
+Author URI: http://www.hadornag.ch
+Description: The <a href="http://wpyaml.com" title="Wordpress starter theme WP YAML">WP YAML</a> theme is a clean and responsive starter theme to speed up Wordpress development. It's based on the awesome <a href="http://yaml.de/" title="YAML">YAML CSS framework</a>. It uses a minimal code structure optimized for performance, and it fully supports SASS/SCSS. We'll keep this theme updated with every new YAML version. 
+Tags: starter, base, starter-theme, yaml, grid, framework, custom-menu, custom-background, widgets, responsive
+License: Creative Commons CC Attribution 3.0
+License URI: http://creativecommons.org/licenses/by/3.0/
+Version: 0.1
+Text Domain: wpyaml
+
+SASS users start from sass/style.scss and sass/wpyaml/_wpyaml.scss.
+
+Plain CSS users start from css/style-plaincss.css and rename it to css/style.css overwriting the current one, then edit that file.
+
+CREDITS: Big thanks & kudos to these awesome projects!
+ - YAML 4 CSS Framework - http://www.yaml.de/
+ - YAML 4 SASS - https://github.com/djesse/yaml4-sass
+ - Bones - http://themble.com/bones/
+ - required+ Foundation  - http://themes.required.ch/
+
+******************************************************************/

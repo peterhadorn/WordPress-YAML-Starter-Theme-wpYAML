@@ -1,0 +1,35 @@
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for the pagination styling.
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+/* Pagination & Comments*/
+#content ul.page-numbers, #comments nav ul {
+  display: block;
+  margin-left: -1em;
+  li {
+    float: left;
+    display: block;
+    height: 24px;
+    color: #999;
+    margin-left: 1em;
+    a {
+      display: block;
+      padding: 1px 7px 1px;
+    }
+    span.current {
+      background-color: #4D87C7;
+      color: white;
+      text-decoration: none;
+      cursor: default;
+      display: block;
+      padding: 1px 7px 1px;
+    }
+  }
+}

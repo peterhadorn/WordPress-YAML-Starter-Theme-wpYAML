@@ -1,0 +1,95 @@
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for various Wordpress-specific styles.
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+/* Fix article header & footer background */
+article header {
+	background: transparent;
+	color: $text-color;
+
+		h1 {
+			background: transparent;
+			color: $headings-color;
+		}
+	}		
+  article footer {
+  background: transparent;
+  color: $text-color;
+  } 
+
+/* Fix header h1 margin, padding, link color and hover YAML style */
+header {
+    div.header {
+      h1 {
+        margin:0;
+        padding: $line-height / $h1-font-scale*2*1em 0;
+        a {
+          color: #fff;
+          &:hover { color: #fff; background: #444;}
+        }
+      }
+    }
+  } 
+
+/* Add some air around navigations and footer... */
+nav.headernav, p.copyright {
+  margin-bottom: 1em;
+  }   
+nav.footernav {
+  margin-top: 1em;
+}
+footer {
+  padding: 1em 0;
+  }   
+
+/* Top margin for sidebar widgets */
+.widget {
+    margin: $line-height / $h2-font-scale*3*1em 0 0;
+  }
+   
+/* Remove list element icons in sidebar */
+.sidebar ul {
+  list-style-type: none;
+}
+
+/* Red border under sidebar titles like in YAML Docs - remove if you don't like it */
+.sidebar h4 {
+  border-bottom: 1px #aa1124 solid;
+}
+
+/* Image alignment*/
+img {
+  &.alignleft {
+    float: left;
+    display: inline;
+    margin: 1.5em 1em 0 0;
+  }
+  &.alignright {
+    float: right;
+    display: inline;
+    margin: 1.5em 0 0 1em;
+  }
+  &.aligncenter {
+    display: block;
+    text-align: center;
+    margin: 1.5em auto 0 auto;
+  }
+}
+
+/* Everything responsive*/
+img, video, audio, embed, object, input, iframe {
+    max-width: 100%;
+}
+
+/* More Link */
+.more-link {
+  float:right;
+  margin-top: 1em;
+}
