@@ -64,8 +64,8 @@ COMMENTS
 
 if ( !function_exists('fb_addgravatar') ) {
 	function fb_addgravatar( $avatar_defaults ) {
-		$myavatar = get_bloginfo('template_directory') . '/lib/images/yaml.jpg';
-		$avatar_defaults[$myavatar] = 'YAML Gravatar';
+		$myavatar = get_bloginfo('template_directory') . '/lib/images/wy.jpg';
+		$avatar_defaults[$myavatar] = 'WP-YAML Gravatar';
 		return $avatar_defaults;
 	}
 

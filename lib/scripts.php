@@ -22,7 +22,7 @@ function wpyaml_scripts_and_styles() {
   if (!is_admin()) {
 
     // modernizr - uncomment if you need it, and replace with own custom build if required http://modernizr.com/download/
-    wp_register_script( 'wpyaml-modernizr', get_stylesheet_directory_uri() . '/lib/vendor/custom.modernizr.js', array(), '2.6.2', false );
+    // wp_register_script( 'wpyaml-modernizr', get_stylesheet_directory_uri() . '/lib/vendor/custom.modernizr.js', array(), '2.6.2', false );
 
     // selectivizr - uncomment if you need it
     // wp_register_script( 'wpyaml-selectivizr', get_stylesheet_directory_uri() . '/lib/vendor/selectivizr-min.js', array(), '1.0.2', false );    
@@ -42,7 +42,7 @@ function wpyaml_scripts_and_styles() {
    /* REGISTER ANY JQUERY SCRIPTS HERE!! wp_register_script( 'wpyaml-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );  */
 
     // enqueue styles and scripts
-    wp_enqueue_script( 'wpyaml-modernizr' );
+    // wp_enqueue_script( 'wpyaml-modernizr' );
     // wp_enqueue_script( 'wpyaml-selectivizr' );   
     wp_enqueue_style( 'wpyaml-stylesheet' );
     wp_enqueue_style('wpyaml-ie-only');
