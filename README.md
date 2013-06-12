@@ -2,7 +2,7 @@
 
 WP YAML is a lightweight, responsive, almost-blank Wordpress starter theme. It is meant to provide a clean starting base with a modular structure for rapid Wordpress website development, especially for developers who are familiar with SASS.
 
-As the name implies, WP YAML is based on the awesome [YAML CSS framework](http://www.yaml.de) and fully incorprates it. 
+As the name implies, WP YAML is based on the awesome [YAML CSS framework](http://www.yaml.de) and fully incorporates all of its wizardry.
 
 Further thanks go to:
 
