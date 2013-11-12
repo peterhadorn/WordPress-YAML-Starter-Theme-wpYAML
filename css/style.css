@@ -1,7 +1,2127 @@
-@media all{*{margin:0;padding:0}option{padding-left:0.4em}select{padding:1px}* html body *{overflow:visible}body{font-size:100%;background:#fff;color:#000;text-align:left}div:target{outline:0 none}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none}[hidden]{display:none}input[type="search"]{-webkit-appearance:textfield}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset,img{border:0 solid}ul,ol,dl{margin:0 0 1em 1em}li{line-height:1.5em;margin-left:0.8em}dt{font-weight:bold}dd{margin:0 0 1em 0.8em}blockquote{margin:0 0 1em 0.8em}q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}.ym-clearfix:before{content:"";display:table}.ym-clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden}.ym-contain-dt{display:table;width:100%;overflow:visible}.ym-contain-oh{overflow:hidden;width:100%;display:block}.ym-contain-fl{float:left;width:100%}.ym-column{display:table;width:100%}.ym-col1{float:left;width:20%}.ym-col2{float:right;width:20%}.ym-col3{width:auto;margin:0 20%}.ym-cbox{padding:0 10px}.ym-cbox-left{padding:0 10px 0 0}.ym-cbox-right{padding:0 0 0 10px}.ym-ie-clearing{display:none}.ym-grid{display:table;width:100%;table-layout:fixed;list-style-type:none;padding-left:0;padding-right:0;margin-left:0;margin-right:0}.ym-gl{float:left;margin:0}.ym-gr{float:right;margin:0 0 0 -5px}.ym-g20{width:20%}.ym-g40{width:40%}.ym-g60{width:60%}.ym-g80{width:80%}.ym-g25{width:25%}.ym-g33{width:33.333%}.ym-g50{width:50%}.ym-g66{width:66.666%}.ym-g75{width:75%}.ym-g38{width:38.2%}.ym-g62{width:61.8%}.ym-gbox{padding:0 10px}.ym-gbox-left{padding:0 10px 0 0}.ym-gbox-right{padding:0 0 0 10px}.ym-equalize{overflow:hidden}.ym-equalize>[class*="ym-g"]{display:table-cell;float:none;margin:0;vertical-align:top}.ym-equalize>[class*="ym-g"]>[class*="ym-gbox"]{padding-bottom:10000px;margin-bottom:-10000px}.ym-form,.ym-form fieldset{overflow:hidden}.ym-form div{position:relative}.ym-form label,.ym-form .ym-message{position:relative;display:block}.ym-form .ym-fbox-check label{display:inline}.ym-form input,.ym-form textarea{cursor:text}.ym-form input[type="checkbox"],.ym-form input[type="radio"],.ym-form select,.ym-form label{cursor:pointer}.ym-form textarea{overflow:auto}.ym-form input[type=hidden]{display:none !important}.ym-form .ym-fbox-text:before,.ym-form .ym-fbox-select:before,.ym-form .ym-fbox-check:before,.ym-form .ym-fbox-button:before{content:"";display:table}.ym-form .ym-fbox-text:after,.ym-form .ym-fbox-select:after,.ym-form .ym-fbox-check:after,.ym-form .ym-fbox-button:after{clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden}.ym-form select,.ym-form input,.ym-form textarea{display:block;position:relative;width:58.5%}.ym-form .ym-fbox-check input{display:inline;width:auto}.ym-form .ym-fbox-button input{display:inline;overflow:visible;width:auto}.ym-form .ym-fbox-check input:focus,.ym-form .ym-fbox-check input:hover,.ym-form .ym-fbox-check input:active{border:0 none}.ym-full .ym-fbox-select select,.ym-full .ym-fbox-text input,.ym-full .ym-fbox-text textarea{width:94.2%;margin-right:-3px}.ym-columnar .ym-fbox-text label,.ym-columnar .ym-fbox-select label{display:inline;float:left;width:30%}.ym-columnar .ym-fbox-select select,.ym-columnar .ym-fbox-text input,.ym-columnar .ym-fbox-text textarea{float:left;width:67.2%;margin-right:-3px}.ym-columnar .ym-fbox-check{position:relative}.ym-columnar .ym-fbox-check .ym-label{position:absolute;top:0}.ym-columnar .ym-fbox-check input,.ym-columnar .ym-error .ym-message{margin-left:30%}.ym-label{display:block}.ym-columnar fieldset .ym-fbox-button,fieldset.ym-columnar .ym-fbox-button{padding-left:30%}.ym-fbox-select select{width:60%}.ym-full .ym-fbox-select select{width:94.8%}.ym-columnar .ym-fbox-select select{width:68.8%}.ym-skip,.ym-hideme,.ym-print{position:absolute;top:-32768px;left:-32768px}.ym-skip:focus,.ym-skip:active{position:static;top:0;left:0}.ym-skiplinks{position:absolute;top:0px;left:-32768px;z-index:1000;width:100%;margin:0;padding:0;list-style-type:none}.ym-skiplinks .ym-skip:focus,.ym-skiplinks .ym-skip:active{left:32768px;outline:0 none;position:absolute;width:100%}}@media print{.ym-grid>.ym-gl,.ym-grid>.ym-gr{overflow:visible;display:table}.ym-print{position:static;left:0}.ym-noprint{display:none !important}}@media all{.ym-hlist{width:100%;overflow:hidden;position:relative;line-height:1em;background:#222}.ym-hlist ul{margin:0;padding:0.5em 1.5em;display:inline;float:left}.ym-hlist ul li{display:inline;float:left;font-size:1.0em;line-height:1;list-style-type:none;margin:0 .25em 0 0;padding:0}.ym-hlist ul li a,.ym-hlist ul li strong{background:transparent;color:#aaa;display:block;font-size:1em;line-height:2em;padding:0 0.5em;font-weight:normal;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,0.5);width:auto}.ym-hlist ul li a:focus,.ym-hlist ul li a:hover,.ym-hlist ul li a:active{color:#ccc;background:#666;background:rgba(255,255,255,0.25);border-radius:0.2em;text-decoration:none;outline:0 none}.ym-hlist ul li.active{background:#666;background:rgba(255,255,255,0.3);border-radius:0.2em;color:#fff}.ym-hlist ul li.active strong,.ym-hlist ul li.active a:focus,.ym-hlist ul li.active a:hover,.ym-hlist ul li.active a:active{background:transparent;color:#fff;text-decoration:none}.ym-searchform{float:right;display:inline;line-height:2;padding:0.5em 1.5em}.ym-searchform .ym-searchfield{background:#fff;line-height:1;padding:0.25em;width:12em;border:solid 1px #888;border:solid 1px rgba(255,255,255,0.1);outline:none;-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,0.2);box-shadow:inset 0 1px 3px rgba(0,0,0,0.2)}.ym-searchform .ym-searchbutton{color:#fff;cursor:pointer;display:inline-block;font-size:1em;line-height:1.25;padding:0.25em;border:solid 1px transparent;text-shadow:0 1px 1px rgba(0,0,0,0.5);border-radius:.2em;background:#5f5f5f;background:rgba(255,255,255,0.2)}}@media screen and (min-width: 0px){.ym-form input,.ym-form textarea,.ym-form select{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;width:60%}.ym-columnar label{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.ym-columnar .ym-fbox-select select input,.ym-columnar .ym-fbox-select select textarea,.ym-columnar .ym-fbox-text input,.ym-columnar .ym-fbox-text textarea{width:70%}.ym-full .ym-fbox-select select,.ym-full .ym-fbox-text input,.ym-full .ym-fbox-text textarea{width:100%}}@media screen, projection{.ym-form{background:#f4f4f4;border:2px #fff solid;margin:1.5em 0 0 0;padding:0;-webkit-box-shadow:0 0 4px #ddd;box-shadow:0 0 4px #ddd}.ym-form fieldset{position:static;background:transparent;margin:0.75em 0 0.75em 0;padding:0 0.5em}.ym-form legend{background:transparent;color:#000;font-size:1.2em;line-height:1.25em;font-weight:bold;padding:0 0.5em}.ym-form label{color:#666;line-height:1.5}.ym-form .ym-label{color:#666;padding-top:0.25em}.ym-form div.ym-fbox-text,.ym-form div.ym-fbox-select,.ym-form div.ym-fbox-check,.ym-form div.ym-fbox-button{padding:0.3em 1em;margin-bottom:0.5em}.ym-form div.ym-fbox-button{background:#ececec;border-top:1px #e0e0e0 solid;padding:0 1em 1.5em 1em;margin:0;text-align:right}.ym-form .ym-gbox{padding:0 0.5em;margin-right:0}.ym-form h6{font-size:100%;color:#000;margin:1em 0 1em 1em}.ym-form .ym-form div.ym-fbox-check:focus+label{color:#000}.ym-form .ym-fbox-text input,.ym-form .ym-fbox-text textarea{line-height:1em;padding:0.25em 0.3em;margin-top:-2px}.ym-form .ym-fbox-select select{line-height:1em;padding:0.25em 2px 0.25em 1px;margin-top:-2px}.ym-form input,.ym-form textarea,.ym-form select,.ym-form optgroup{font-family:Arial, Helvetica, sans-serif;-webkit-box-shadow:inset 0 0 4px #eee;box-shadow:inset 0 0 4px #eee}.ym-form optgroup{font-style:normal;font-weight:bold}.ym-form .ym-fbox-text input,.ym-form .ym-fbox-text textarea,.ym-form .ym-fbox-select select{border:1px solid #ddd}.ym-form .ym-message{color:#666;margin-bottom:0.5em}.ym-form .ym-required{color:#800;font-weight:bold}.ym-form input:valid,.ym-form textarea:valid{background-color:#fff}.ym-form input:invalid,.ym-form textarea:invalid{background-color:#fdd}.ym-form .ym-error label{color:#800;font-weight:normal}.ym-form .ym-error input,.ym-form .ym-error select,.ym-form .ym-error textarea{border:1px #800 solid}.ym-form .ym-error input:hover,.ym-form .ym-error input:focus,.ym-form .ym-error select:hover,.ym-form .ym-error select:focus,.ym-form .ym-error textarea:hover,.ym-form .ym-error textarea:focus{border:1px #800 solid !important}.ym-form .ym-error .ym-message{color:#800;font-weight:bold;margin-top:0}.ym-form div.ym-fbox-text input:focus,.ym-form div select:focus,.ym-form div textarea:focus,.ym-form div.ym-fbox-text input:hover,.ym-form div select:hover,.ym-form div textarea:hover,.ym-form div.ym-fbox-text input:active,.ym-form div select:active,.ym-form div textarea:active{border:1px #888 solid;background:#fff}.ym-button,.ym-form button,.ym-form input[type="button"],.ym-form input[type="reset"],.ym-form input[type="submit"]{display:inline-block;white-space:nowrap;background-color:#ccc;background-image:-webkit-linear-gradient(top, #eee, #ccc);background-image:-moz-linear-gradient(top, #eee, #ccc);background-image:-ms-linear-gradient(top, #eee, #ccc);background-image:-o-linear-gradient(top, #eee, #ccc);background-image:linear-gradient(top, #eee, #ccc);filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');border:1px solid #777;border-radius:.2em;-webkit-box-shadow:0 0 1px 1px rgba(255,255,255,0.8) inset,0 1px 0 rgba(0,0,0,0.15);box-shadow:0 0 1px 1px rgba(255,255,255,0.8) inset,0 1px 0 rgba(0,0,0,0.15);color:#333 !important;cursor:pointer;font:normal 1em/2em Arial, Helvetica;margin:1.5em 0.75em 0 0;padding:0 1.5em;overflow:visible;text-decoration:none !important;text-shadow:0 1px 0 rgba(255,255,255,0.8)}.ym-button:hover,.ym-form button:hover,.ym-form input[type="button"]:hover,.ym-form input[type="reset"]:hover,.ym-form input[type="submit"]:hover{background-color:#ddd;background-image:-webkit-linear-gradient(top, #fafafa, #ddd);background-image:-moz-linear-gradient(top, #fafafa, #ddd);background-image:-ms-linear-gradient(top, #fafafa, #ddd);background-image:-o-linear-gradient(top, #fafafa, #ddd);background-image:linear-gradient(top, #fafafa, #ddd);filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd')}.ym-button:active,.ym-form button:active,.ym-form input[type="button"]:active,.ym-form input[type="reset"]:active,.ym-form input[type="submit"]:active{background-color:#bbb;background-image:-webkit-linear-gradient(top, #ccc, #bbb);background-image:-moz-linear-gradient(top, #ccc, #bbb);background-image:-ms-linear-gradient(top, #ccc, #bbb);background-image:-o-linear-gradient(top, #ccc, #bbb);background-image:linear-gradient(top, #ccc, #bbb);filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#bbbbbb');box-shadow:2px 2px 3px rgba(0,0,0,0.2) inset;position:relative;top:1px}.ym-button:focus,.ym-form button:focus,.ym-form input[type="button"]:focus,.ym-form input[type="reset"]:focus,.ym-form input[type="submit"]:focus{outline:0;background:#fafafa}.ym-form button:before,.ym-button:before{background:#ccc;background:rgba(0,0,0,0.1);float:left;width:1em;text-align:center;font-size:1.5em;margin:0 1em 0 -1em;padding:0 .2em;-webkit-box-shadow:1px 0 0 rgba(0,0,0,0.5),2px 0 0 rgba(255,255,255,0.5);box-shadow:1px 0 0 rgba(0,0,0,0.5),2px 0 0 rgba(255,255,255,0.5);border-radius:.15em 0 0 .15em;pointer-events:none}.ym-add:before{content:"\271A"}.ym-delete:before{content:"\2718"}.ym-edit:before{content:"\270E"}.ym-email:before{content:"\2709"}.ym-like:before{content:"\2764"}.ym-next:before{content:"\279C"}.ym-play:before{content:"\25B6"}.ym-save:before{content:"\2714"}.ym-spark:before{content:"\2737"}.ym-star:before{content:"\2605"}.ym-form button::-moz-focus-inner{border:0;padding:0}.ym-form input[type=button]::-moz-focus-inner,.ym-form input[type=reset]::-moz-focus-inner,.ym-form input[type=submit]::-moz-focus-inner{padding:.4em}.ym-form button[disabled],.ym-form button[disabled]:hover,.ym-form input[type=button][disabled],.ym-form input[type=button][disabled]:hover,.ym-form input[type=reset][disabled],.ym-form input[type=reset][disabled]:hover,.ym-form input[type=submit][disabled],.ym-form input[type=submit][disabled]:hover,.ym-button.ym-disabled,.ym-button.ym-disabled:hover{background:#eee;color:#aaa !important;border-color:#aaa;cursor:default;text-shadow:none;position:static;-webkit-box-shadow:none;box-shadow:none}* html .ym-button,* html .ym-form button{display:inline-block;white-space:nowrap;background-color:#ccc;filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');border:1px solid #777;color:#333 !important;cursor:pointer;font:normal 1em/2em Arial, Helvetica;margin:1.5em 0.75em 0 0;padding:0 1.5em;overflow:visible;text-decoration:none !important}* html .ym-form button:focus,* html .ym-button:focus{outline:0;background:#fafafa}* html .ym-form button:hover,* html .ym-button:hover{background-color:#ddd;filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd')}* html .ym-form button:active,* html .ym-button:active{background-color:#bbb;filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#bbbbbb');position:relative;top:1px}* html .ym-button.ym-disabled,* html .ym-button.ym-disabled:hover{background:#eee;color:#aaa !important;border-color:#aaa;cursor:default;text-shadow:none;position:static}}@media all{/*
-* @section global typography settings
-*
-* vertical rhythm settings (based on em-unit)
-* -------------------------------------------
-* basefont-size:  14px (87.5%)
-* line-height  :  21px (factor: 1.5) */html *{font-size:100%}textarea,pre,code,kbd,samp,var,tt{font-family:Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier}body{font-family:"Droid Serif",Georgia,"Times New Roman",Times,serif;/* font-size: 14px; */;font-size:87.5%;color:#444;-webkit-text-size-adjust:100%}h1,h2,h3,h4,h5,h6{font-family:"Droid Sans",Arial,Helvetica,sans-serif;font-weight:400;color:#161e21;margin:0}h1{/* font-size: 49px; */;font-size:350%;line-height:0.85714;margin:0.42857em 0 0}h2{/* font-size: 35px; */;font-size:250%;line-height:1.2;margin:0.6em 0 0}h3{/* font-size: 24px; */;font-size:171.42857%;line-height:0.875;margin:0.875em 0 0}h4{/* font-size: 21px; */;font-size:150%;line-height:1;margin:1em 0 0}h5{/* font-size: 18px; */;font-size:128.57143%;line-height:1.16667;margin:1.16667em 0 0}h6{font-weight:bold;/* font-size: 14px; */;font-size:100%;line-height:1.5;margin:1.5em 0 0}ul,ol,dl{font-size:100%;line-height:1.5;margin:1.5em 0 1em}ul{list-style-type:disc}ol{list-style-type:decimal}ul ul{list-style-type:circle;margin-top:0}ol ol{list-style-type:lower-latin;margin-top:0}ol ul{list-style-type:circle;margin-top:0}li{font-size:100%;line-height:1.5;margin-left:0.8em}dt{font-weight:bold}dd{margin:1.5em 0 0 0.8em}p{font-size:100%;line-height:1.5;margin:1.5em 0 0}blockquote,cite,q{font-family:"Droid Serif",Georgia,"Times New Roman",Times,serif;font-style:italic}blockquote{background:transparent;color:#666;margin:1.5em 0 0 1.5em}strong,b{font-weight:bold}em,i{font-style:italic}big{/* font-size: 16px; */;font-size:114.28571%;line-height:1.3125}small{/* font-size: 12px; */;font-size:85.71429%;line-height:1.75}pre,code,kbd,tt,samp,var{font-size:100%}pre{font-size:100%;line-height:1.5;margin:1.5em 0 0;white-space:pre;white-space:pre-wrap;word-wrap:break-word}pre,code{color:#800}kbd,samp,var,tt{color:#666;font-weight:bold}var,dfn{font-style:italic}acronym,abbr{border-bottom:1px #aaa dotted;font-variant:small-caps;letter-spacing:.07em;cursor:help}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}mark{background:#ff0;color:#000}hr{color:#fff;background:transparent;margin:0 0 0.75em 0;padding:0 0 0.67857em 0;border:0;border-bottom:1px #eee solid}a{color:#4d87c7;background:transparent;text-decoration:none}a:active{outline:none}a:hover,a:focus{background-color:#4d87c7;color:#fff;text-decoration:none}img,figure{margin:0}.flexible{margin-top:1.5em;max-width:100%;height:auto}* html .flexible{width:98%}.bordered{margin-top:1.5em;border:2px #eee solid;border:2px #fff solid;-webkit-box-shadow:0 0 3px rgba(0,0,0,0.25);box-shadow:0 0 3px rgba(0,0,0,0.25)}.highlight{color:#c30}.dimmed{color:#888}.box{border-radius:0.3em;border-width:1px;border-style:solid;border-color:#888;border-color:rgba(0,0,0,0.3);-webkit-box-shadow:inset 1px 1px 3px rgba(0,0,0,0.2);box-shadow:inset 1px 1px 3px rgba(0,0,0,0.2);color:#444;color:rgba(0,0,0,0.8);padding:1.42857em;margin:1.5em 0 0 0}.box>*:first-child{margin-top:0}.label{font-family:Verdana, Geneva, sans-serif;padding:1px 6px 2px;display:inline-block;vertical-align:middle;letter-spacing:normal;white-space:nowrap;-webkit-border-radius:3px;border-radius:3px;background:#06C;color:#fff;font-size:10px;line-height:12px}.info{background:#f4f4f4}.success{background:#8c8}.warning{background:#cc8}.error{background:#c88}.float-left{float:left;display:inline;margin:1.5em 1em 0 0}.float-right{float:right;display:inline;margin:1.5em 0 0 1em}.center{display:block;text-align:center;margin:1.5em auto 0 auto}table{width:100%;border-collapse:collapse;color:#444;border-top:1px #ccc solid;border-bottom:1px #ccc solid;margin:1.35714em 0 0 0}table.narrow{margin:1.42857em 0 0 0}table.narrow th,table.narrow td{padding:0 0.5em;line-height:1.42857}table.bordertable{border:1px #ccc solid}table.bordertable thead th{background:#e0e0e0;border-right:1px #ccc solid;border-bottom:1px #ccc solid}table.bordertable tbody th[scope="row"]{background:#f0f0f0}table.bordertable tbody th{border-right:1px solid #ccc}table.bordertable tbody td{border-right:1px solid #ccc}table caption{font-variant:small-caps}th,td{line-height:1.5em;vertical-align:top;padding:0.71429em 0.5em}th *:first-child,td *:first-child{margin-top:0}th.nowrap,td.nowrap{white-space:nowrap}thead th{text-align:left;color:#000;border-bottom:2px #000 solid}tbody th{text-align:left;border-top:1px solid #ccc;text-align:left}tbody td{text-align:left;border-top:1px solid #ccc}tbody tr:hover th,tbody tr:hover td{background:#f8f8f8}}@media screen{body{overflow-y:scroll}.ym-wrapper{max-width:80em;margin:0 auto}.ym-wbox{padding:1.5em}body>header,body>nav,body>#main,body>footer{min-width:760px}header{background:#444;color:#ccc}header h1{background:transparent;color:#fff}header .ym-wbox{padding:1.5em}nav{background:#222222}#main .info{margin-bottom:1.5em}#main aside .ym-gbox-right{border-left:1px #ddd solid}footer{background:#eee;color:#444}footer p{margin:0}footer .ym-wbox{padding:1.5em}.ym-gbox{padding:0 1.5em}.ym-gbox-left{padding:0 1.5em 0 0}.ym-gbox-right{padding:0 0 0 1.5em}section.box{padding:0 1.5em 1.5em 1.5em}.ym-skiplinks a.ym-skip:focus,.ym-skiplinks a.ym-skip:active{color:#fff;background:#333;border-bottom:1px #000 solid;padding:10px 0;text-align:center;text-decoration:none}}@media screen and (min-width: 0px){body>header,body>nav,body>#main,body>footer{min-width:0}}@media screen and (max-width: 760px){.linearize-level-1,.linearize-level-1>[class*="ym-c"],.linearize-level-1>[class*="ym-g"]{display:block;float:none;padding:0;margin:0;width:100% !important}.linearize-level-1>[class*="ym-c"]>[class*="ym-cbox"],.linearize-level-1>[class*="ym-g"]>[class*="ym-gbox"]{margin:0;padding:0;overflow:hidden}.secondary{border-top:1px #888 solid;margin-top:1.5em !important}#main aside .ym-gbox-right{border:0 none}.ym-searchform{display:block;float:none;width:auto;text-align:right}.ym-searchform input[type="search"]{width:14%}}@media screen and (max-width: 480px){.linearize-level-2,.linearize-level-2>[class*="ym-c"],.linearize-level-2>[class*="ym-g"]{display:block;float:none;padding:0;margin:0;width:100% !important}.linearize-level-2>[class*="ym-c"]>[class*="ym-cbox"],.linearize-level-2>[class*="ym-g"]>[class*="ym-gbox"]{margin:0;padding:0;overflow:hidden}header .ym-wbox{padding:0.75em 10px}header h1{font-size:1.5em;line-height:1em;margin:0}footer .ym-wbox,.ym-wbox,.ym-searchform,nav .ym-hlist ul{padding-left:10px;padding-right:10px}.ym-searchform,nav .ym-hlist ul,nav .ym-hlist li{display:block;float:none;width:auto;text-align:left}.ym-searchform input[type="search"]{width:75%}}@media print{body{font-size:10pt;padding:0 5px}nav,.ym-searchform{display:none}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;*behavior:url(wp-content/themes/wp-yaml/lib/vendor/boxsizing.htc)}.ym-wrapper{max-width:80em}.header,.main,.sidebar,.footer{padding:0 1.5em}@media screen and (max-width: 760px){.linearize-level-1{display:block;float:none;padding:0 1.5em;margin:0;width:100% !important}.linearize-level-1>[class*="ym-g"]{display:block;float:none;padding:0;margin:0;width:100% !important}.linearize-level-1>[class*="ym-g"]>[class*="ym-gbox"]{overflow:hidden;padding:0;margin:0}}body{font-size:100%}small,p.small{font-size:75%}article header{background:transparent;color:#444}article header h1{background:transparent;color:#161e21}article footer{background:transparent;color:#444}header div.header h1{margin:0;padding:0.85714em 0}header div.header h1 a{color:#fff}header div.header h1 a:hover{color:#fff;background:#444}nav.headernav,p.copyright{margin-bottom:1em}nav.footernav{margin-top:1em}footer{padding:1em 0}.widget{margin:1.8em 0 0}.sidebar ul{list-style-type:none}.sidebar h4{border-bottom:1px #aa1124 solid}img.alignleft{float:left;display:inline;margin:1.5em 1em 0 0}img.alignright{float:right;display:inline;margin:1.5em 0 0 1em}img.aligncenter{display:block;text-align:center;margin:1.5em auto 0 auto}img,video,audio,embed,object,input,iframe{max-width:100%}.more-link{float:right;margin-top:1em}div.ym-fbox-text label.hide{display:none}input,textarea{font-family:"Droid Serif",Georgia,"Times New Roman",Times,serif}#commentform,#searchform{width:50%}#commentform .ym-fbox-text,#searchform .ym-fbox-text{margin-top:1em}#commentform .ym-fbox-text input,#searchform .ym-fbox-text input,#commentform .ym-fbox-text textarea,#searchform .ym-fbox-text textarea{line-height:1em;padding:.25em .3em}#content ul.page-numbers,#content #comments nav ul,#comments nav #content ul,#comments nav ul{display:block;margin-left:-1em}#content ul.page-numbers li,#content #comments nav ul li,#comments nav #content ul li,#comments nav ul li{float:left;display:block;height:24px;color:#999;margin-left:1em}#content ul.page-numbers li a,#content #comments nav ul li a,#comments nav #content ul li a,#comments nav ul li a{display:block;padding:1px 7px 1px}#content ul.page-numbers li span.current,#content #comments nav ul li span.current,#comments nav #content ul li span.current,#comments nav ul li span.current{background-color:#4D87C7;color:white;text-decoration:none;cursor:default;display:block;padding:1px 7px 1px}#comments nav{background:transparent;color:#444}#comments ol{font-weight:700}#comments ol li{margin:2em 0 0 1.5em}#comments ol li:first-child{margin:1em 0 0 1.5em}#comments ol li article{font-weight:400}
+@charset "UTF-8";
+/*  Welcome to WP-YAML v0.2
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  License: CC Attribution 3.0 http://creativecommons.org/licenses/by/3.0/
+ *   
+ *  CREDITS: Big thanks to these awesome projects!
+ * 
+ *  - YAML 4 CSS Framework - http://www.yaml.de/
+ *  - Bones - http://themble.com/bones/
+ *  - required+ Foundation  - http://themes.required.ch/
+ * 
+ *  YAML and WP YAML all come together in this style.scss, which compiles into css/style.css that is used in the template.
+ * 
+ * Plain CSS users can simply edit css/style.css as they like (it is supplied in uncompressed version).
+ * 
+ * The theme currently only uses a flexible grids full page layout. Different layout versions may be added in the future. 
+ * 
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ */
+/* YAML4-SASS  */
+@media all {
+  /**
+   *  @section Normalisation Module
+   */
+  /* (en) Global reset of paddings and margins for all HTML elements */
+  /* (de) Globales Zurücksetzen der Innen- und Außenabstände für alle HTML-Elemente */
+  * {
+    margin: 0;
+    padding: 0; }
+
+  /* (en) Correction: margin/padding reset caused too small select boxes. */
+  /* (de) Korrektur: Das Zurücksetzen der Abstände verursacht zu kleine Selectboxen. */
+  option {
+    padding-left: 0.4em; }
+
+  select {
+    padding: 1px; }
+
+  /*
+  * (en) Global fix of the Italics bugs in IE 5.x and IE 6
+  * (de) Globale Korrektur des Italics Bugs des IE 5.x und IE 6
+  *
+  * @bugfix
+  * @affected   IE 5.x/Win, IE6
+  * @css-for    IE 5.x/Win, IE6
+  * @valid      yes
+  */
+  * html body * {
+    overflow: visible; }
+
+  /*
+  * (en) Fix for rounding errors when scaling font sizes in older versions of Opera browser
+  *      Standard values for colors and text alignment
+  *
+  * (de) Beseitigung von Rundungsfehler beim Skalieren von Schriftgrößen in älteren Opera Versionen
+  *      Vorgabe der Standardfarben und Textausrichtung
+  */
+  body {
+    font-size: 100%;
+    background: #fff;
+    color: #000;
+    text-align: left; }
+
+  /* (en) avoid visible outlines on DIV and h[x] elements in Webkit browsers */
+  /* (de) Vermeidung sichtbarer Outline-Rahmen in Webkit-Browsern */
+  div:target,
+  h1:target,
+  h2:target,
+  h3:target,
+  h4:target,
+  h5:target,
+  h6:target {
+    outline: 0 none; }
+
+  /* (en) HTML5 - adjusting visual formatting model to block level */
+  /* (de) HTML5 - Elements werden als Blockelemente definiert */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  main,
+  nav,
+  section,
+  summary {
+    display: block; }
+
+  /* (en) HTML5 - default media element styles */
+  /* (de) HTML5 - Standard Eigenschaften für Media-Elemente */
+  audio,
+  canvas,
+  video {
+    display: inline-block; }
+
+  /* (en) HTML5 - don't show <audio> element if there aren't controls */
+  /* (de) HTML5 - <audio> ohne Kontrollelemente sollten nicht angezeigt werden */
+  audio:not([controls]) {
+    display: none; }
+
+  /* (en) HTML5 - add missing styling in IE & old FF for hidden attribute */
+  /* (de) HTML5 - Eigenschaften für das hidden-Attribut in älteren IEs und FF nachrüsten */
+  [hidden] {
+    display: none; }
+
+  /* (en) Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+  /* (de) Verdindert die automatische Textanpassung bei Orientierungswechsel, ohne Zoom zu blockieren */
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
+
+  /* (en) set correct box-modell in IE8/9 plus remove padding */
+  /* (de) Setze das richtige Box-Modell im IE8/9 und entferne unnötiges Padding */
+  input[type="checkbox"],
+  input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0; }
+
+  /* (en) force consistant appearance of input[type="search"] elements in all browser */
+  /* (de) Einheitliches Erscheinungsbild für input[type="search"] Elemente erzwingen */
+  input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; }
+
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+  /* (en) Correct overflow displayed oddly in IE 9 */
+  /* (de) Korrigiert fehlerhafte overflow Voreinstellung des IE 9 */
+  svg:not(:root) {
+    overflow: hidden; }
+
+  /* (en) Address margin not present in IE 8/9 and Safari 5 */
+  /* (en) Ergänzt fehlenden Margin in IE 8/9 und Safari 5 */
+  figure {
+    margin: 0; }
+
+  /* (en) Clear borders for <fieldset> and <img> elements */
+  /* (de) Rahmen für <fieldset> und <img> Elemente löschen */
+  fieldset,
+  img {
+    border: 0 solid; }
+
+  /* (en) new standard values for lists, blockquote, cite and tables */
+  /* (de) Neue Standardwerte für Listen, Zitate und Tabellen */
+  ul,
+  ol,
+  dl {
+    margin: 0 0 1em 1em; }
+
+  li {
+    line-height: 1.5em;
+    margin-left: 0.8em; }
+
+  dt {
+    font-weight: bold; }
+
+  dd {
+    margin: 0 0 1em 0.8em; }
+
+  blockquote {
+    margin: 0 0 1em 0.8em; }
+
+  q {
+    quotes: none; }
+
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none; }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+  /**
+  * @section Float Handling Module
+  */
+  /* (en) clearfix method for clearing floats */
+  /* (de) Clearfix-Methode zum Clearen der Float-Umgebungen */
+  .ym-clearfix:before {
+    content: "";
+    display: table; }
+
+  .ym-clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; }
+
+  /* (en) alternative solutions to contain floats */
+  /* (de) Alternative Methoden zum Einschließen von Float-Umgebungen */
+  .ym-contain-dt {
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
+
+  .ym-contain-oh {
+    display: block;
+    overflow: hidden;
+    width: 100%; }
+
+  .ym-contain-fl {
+    float: left;
+    width: 100%; }
+
+  /**
+  * @section Column Module
+  *
+  * default column config:
+  * |-------------------------------|
+  * | col1    | col3      | col2    |
+  * | 20%     | flexible  | 20%     |
+  * |-------------------------------|
+  */
+  .ym-column {
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
+
+  .ym-col1 {
+    float: left;
+    width: 20%; }
+
+  .ym-col2 {
+    float: right;
+    width: 20%; }
+
+  .ym-col3 {
+    width: auto;
+    margin: 0 20%; }
+
+  .ym-cbox {
+    padding: 0 10px; }
+
+  .ym-cbox-left {
+    padding: 0 10px 0 0; }
+
+  .ym-cbox-right {
+    padding: 0 0 0 10px; }
+
+  /* (en) IE-Clearing: Only used in Internet Explorer, switched on in iehacks.css */
+  /* (de) IE-Clearing: Benötigt nur der Internet Explorer und über iehacks.css zugeschaltet */
+  .ym-ie-clearing {
+    display: none; }
+
+  /**
+  * @section Grid Module
+  */
+  .ym-grid {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0; }
+
+  .ym-gl {
+    float: left;
+    margin: 0; }
+
+  .ym-gr {
+    float: right;
+    margin: 0 0 0 -5px; }
+
+  .ym-g20 {
+    width: 20%; }
+
+  .ym-g40 {
+    width: 40%; }
+
+  .ym-g60 {
+    width: 60%; }
+
+  .ym-g80 {
+    width: 80%; }
+
+  .ym-g25 {
+    width: 25%; }
+
+  .ym-g33 {
+    width: 33.333%; }
+
+  .ym-g50 {
+    width: 50%; }
+
+  .ym-g66 {
+    width: 66.666%; }
+
+  .ym-g75 {
+    width: 75%; }
+
+  .ym-g38 {
+    width: 38.2%; }
+
+  .ym-g62 {
+    width: 61.8%; }
+
+  .ym-gbox {
+    padding: 0 10px; }
+
+  .ym-gbox-left {
+    padding: 0 10px 0 0; }
+
+  .ym-gbox-right {
+    padding: 0 0 0 10px; }
+
+  .ym-equalize {
+    overflow: hidden; }
+
+  .ym-equalize > [class*="ym-g"] {
+    display: table-cell;
+    float: none;
+    margin: 0;
+    vertical-align: top; }
+
+  .ym-equalize > [class*="ym-g"] > [class*="ym-gbox"] {
+    padding-bottom: 10000px;
+    margin-bottom: -10000px; }
+
+  /**
+  * @section Form Module
+  */
+  /** Vertical-Forms - technical base (standard)
+  *
+  * |-------------------------------|
+  * | form                          |
+  * |-------------------------------|
+  * |   label                       |
+  * |   input / select / textarea   |
+  * |-------------------------------|
+  * | /form                         |
+  * |-------------------------------|
+  *
+  * (en) Styling of forms where both label and input/select/textarea are styled with display:block;
+  * (de) Formulargestaltung, bei der sowohl label als auch input/select/textarea mit display:block; gestaltet werden
+  */
+  .ym-form,
+  .ym-form fieldset {
+    overflow: hidden; }
+
+  .ym-form div {
+    position: relative; }
+  .ym-form label,
+  .ym-form .ym-label,
+  .ym-form .ym-message {
+    position: relative;
+    line-height: 1.5;
+    display: block; }
+  .ym-form .ym-message {
+    clear: both; }
+  .ym-form .ym-fbox-check label {
+    display: inline; }
+  .ym-form input,
+  .ym-form textarea {
+    cursor: text; }
+  .ym-form .ym-fbox-check input,
+  .ym-form input[type="image"],
+  .ym-form input[type="radio"],
+  .ym-form input[type="checkbox"],
+  .ym-form select,
+  .ym-form label {
+    cursor: pointer; }
+  .ym-form textarea {
+    overflow: auto; }
+  .ym-form input.hidden,
+  .ym-form input[type=hidden] {
+    display: none !important; }
+  .ym-form .ym-fbox:before,
+  .ym-form .ym-fbox-text:before,
+  .ym-form .ym-fbox-select:before,
+  .ym-form .ym-fbox-check:before,
+  .ym-form .ym-fbox-button:before {
+    content: "";
+    display: table; }
+  .ym-form .ym-fbox:after,
+  .ym-form .ym-fbox-text:after,
+  .ym-form .ym-fbox-select:after,
+  .ym-form .ym-fbox-check:after,
+  .ym-form .ym-fbox-button:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; }
+  .ym-form .ym-fbox-check input:focus,
+  .ym-form .ym-fbox-check input:hover,
+  .ym-form .ym-fbox-check input:active,
+  .ym-form input[type="radio"]:focus,
+  .ym-form input[type="radio"]:hover,
+  .ym-form input[type="radio"]:active,
+  .ym-form input[type="checkbox"]:focus,
+  .ym-form input[type="checkbox"]:hover,
+  .ym-form input[type="checkbox"]:active {
+    border: 0 none; }
+  .ym-form input,
+  .ym-form textarea,
+  .ym-form select {
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 70%; }
+  .ym-form .ym-fbox-check input,
+  .ym-form input[type="radio"],
+  .ym-form input[type="checkbox"] {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0.5ex;
+    width: auto;
+    height: auto; }
+  .ym-form input[type="image"] {
+    border: 0;
+    display: inline;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: auto; }
+  .ym-form label,
+  .ym-form .ym-label {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .ym-form .ym-fbox-button input {
+    display: inline;
+    overflow: visible;
+    width: auto; }
+  .ym-form .ym-inline {
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+    width: auto;
+    vertical-align: baseline; }
+
+  /* default form wrapper width */
+  .ym-fbox-wrap {
+    display: table;
+    table-layout: fixed;
+    width: 70%; }
+    .ym-fbox-wrap input,
+    .ym-fbox-wrap textarea,
+    .ym-fbox-wrap select {
+      width: 100%; }
+    .ym-fbox-wrap input[type="image"] {
+      width: auto; }
+    .ym-fbox-wrap input[type="radio"],
+    .ym-fbox-wrap input[type="checkbox"] {
+      display: inline;
+      width: auto;
+      margin-left: 0;
+      margin-right: 0.5ex; }
+    .ym-fbox-wrap label,
+    .ym-fbox-wrap .ym-label {
+      display: inline; }
+
+  .ym-full input,
+  .ym-full textarea,
+  .ym-full select {
+    width: 100%; }
+  .ym-full .ym-fbox-wrap {
+    width: 100%; }
+
+  /**
+  *  Columnar forms display - technical base (optional)
+  *
+  *  |-------------------------------------------|
+  *  | form                                      |
+  *  |-------------------------------------------|
+  *  |                                           |
+  *  |   label   |   input / select / textarea   |
+  *  |                                           |
+  *  |-------------------------------------------|
+  *  | /form                                     |
+  *  |-------------------------------------------|
+  *
+  *  (en) Styling of forms where label floats left of form-elements
+  *  (de) Formulargestaltung, bei der die label-Elemente nach links fließen
+  */
+  .ym-columnar input,
+  .ym-columnar textarea,
+  .ym-columnar select {
+    float: left;
+    margin-right: -3px; }
+  .ym-columnar label,
+  .ym-columnar .ym-label {
+    display: inline;
+    float: left;
+    width: 30%;
+    z-index: 1; }
+  .ym-columnar .ym-fbox-check input,
+  .ym-columnar .ym-message {
+    margin-left: 30%; }
+  .ym-columnar .ym-fbox-wrap {
+    margin-left: 30%;
+    margin-right: -3px; }
+    .ym-columnar .ym-fbox-wrap .ym-message {
+      margin-left: 0%; }
+    .ym-columnar .ym-fbox-wrap label {
+      float: none;
+      width: auto;
+      z-index: 1;
+      margin-left: 0; }
+    .ym-columnar .ym-fbox-wrap input {
+      margin-left: 0;
+      position: relative; }
+  .ym-columnar .ym-fbox-check {
+    position: relative; }
+    .ym-columnar .ym-fbox-check label,
+    .ym-columnar .ym-fbox-check .ym-label {
+      padding-top: 0; }
+    .ym-columnar .ym-fbox-check input {
+      top: 3px; }
+  .ym-columnar .ym-fbox-button input {
+    float: none;
+    margin-right: 1em; }
+
+  .ym-fbox-wrap + .ym-fbox-wrap {
+    margin-top: 0.5em; }
+
+  /* global and local columnar settings for button alignment */
+  .ym-columnar fieldset .ym-fbox-button,
+  fieldset.ym-columnar .ym-fbox-button {
+    padding-left: 30%; }
+
+  /**
+  * @section Accessibility Module
+  *
+  * (en) skip links and hidden content
+  * (de) Skip-Links und versteckte Inhalte
+  */
+  /* (en) classes for invisible elements in the base layout */
+  /* (de) Klassen für unsichtbare Elemente im Basislayout */
+  .ym-skip,
+  .ym-hideme,
+  .ym-print {
+    position: absolute;
+    top: -32768px;
+    left: -32768px; }
+
+  /* (en) make skip links visible when using tab navigation */
+  /* (de) Skip-Links für Tab-Navigation sichtbar schalten */
+  .ym-skip:focus,
+  .ym-skip:active {
+    position: static;
+    top: 0;
+    left: 0; }
+
+  /* skiplinks:technical setup */
+  .ym-skiplinks {
+    position: absolute;
+    top: 0px;
+    left: -32768px;
+    z-index: 1000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .ym-skiplinks .ym-skip:focus,
+    .ym-skiplinks .ym-skip:active {
+      left: 32768px;
+      outline: 0 none;
+      position: absolute;
+      width: 100%; } }
+@media print {
+  /**
+  * @section print adjustments for core modules
+  *
+  * (en) float containment for grids. Uses display:table to avoid bugs in FF & IE
+  * (de) Floats in Grids einschließen. Verwendet display:table, um Darstellungsprobleme im FF & IE zu vermeiden
+  *
+  * @bugfix
+  * @since     3.0
+  * @affected  FF2.0, FF3.0, IE7
+  * @css-for   all browsers
+  * @valid     yes
+  */
+  .ym-grid > .ym-gl,
+  .ym-grid > .ym-gr {
+    overflow: visible;
+    display: table;
+    table-layout: fixed; }
+
+  /* (en) make .ym-print class visible */
+  /* (de) .ym-print-Klasse sichtbar schalten */
+  .ym-print {
+    position: static;
+    left: 0; }
+
+  /* (en) generic class to hide elements for print */
+  /* (de) Allgemeine CSS Klasse, um beliebige Elemente in der Druckausgabe auszublenden */
+  .ym-noprint {
+    display: none !important; } }
+@media all {
+  .ym-hlist {
+    /* (en) containing floats in IE */
+    /* (de) Einfassen der Floats im IE */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    line-height: 1em;
+    background: #222; }
+    .ym-hlist ul {
+      margin: 0;
+      padding: 0.5em 1.5em;
+      display: inline;
+      float: left; }
+      .ym-hlist ul li {
+        display: inline;
+        float: left;
+        font-size: 1.0em;
+        line-height: 1;
+        list-style-type: none;
+        margin: 0 .25em 0 0;
+        padding: 0; }
+        .ym-hlist ul li a, .ym-hlist ul li strong {
+          background: transparent;
+          color: #aaa;
+          display: block;
+          font-size: 1em;
+          line-height: 2em;
+          padding: 0 0.5em;
+          font-weight: normal;
+          text-decoration: none;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+          width: auto; }
+        .ym-hlist ul li a:focus,
+        .ym-hlist ul li a:hover,
+        .ym-hlist ul li a:active {
+          color: #ccc;
+          background: #666;
+          background: rgba(255, 255, 255, 0.25);
+          border-radius: 0.2em;
+          text-decoration: none;
+          outline: 0 none; }
+        .ym-hlist ul li.active {
+          background: #666;
+          background: rgba(255, 255, 255, 0.3);
+          border-radius: 0.2em;
+          color: #fff; }
+          .ym-hlist ul li.active strong,
+          .ym-hlist ul li.active a:focus,
+          .ym-hlist ul li.active a:hover,
+          .ym-hlist ul li.active a:active {
+            background: transparent;
+            color: #fff;
+            text-decoration: none; }
+
+  /* ------- search form -------- */
+  .ym-searchform {
+    float: right;
+    display: inline;
+    line-height: 2;
+    padding: 0.5em 1.5em; }
+    .ym-searchform .ym-searchfield {
+      -webkit-appearance: none;
+      background: #fff;
+      line-height: 1;
+      padding: 0.25em;
+      width: 12em;
+      border: solid 1px #888;
+      border: solid 1px rgba(255, 255, 255, 0.1);
+      outline: none;
+      -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); }
+    .ym-searchform .ym-searchbutton {
+      -webkit-appearance: none;
+      background: #5f5f5f;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: .2em;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1em;
+      line-height: 1.25;
+      padding: 0.25em;
+      border: solid 1px transparent;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); } }
+@media screen {
+  .ym-form {
+    background: #f4f4f4;
+    border: 2px #fff solid;
+    margin: 0 0 1.5em 0;
+    -webkit-box-shadow: 0 0 4px #dddddd;
+    box-shadow: 0 0 4px #dddddd; }
+    .ym-form fieldset {
+      position: static;
+      background: transparent;
+      margin: 0.75em 0 0.75em 0;
+      padding: 0 0.5em; }
+    .ym-form legend {
+      background: transparent;
+      color: #000;
+      font-size: 1.2em;
+      line-height: 1.25em;
+      font-weight: bold;
+      padding: 0 0.5em; }
+    .ym-form label,
+    .ym-form .ym-label {
+      color: #666;
+      line-height: 1.5;
+      padding-top: 0.25em; }
+    .ym-form .ym-fbox {
+      padding: 0 1em;
+      margin: 1em 0 0.5em 0; }
+    .ym-form .ym-fbox-footer {
+      background: #ececec;
+      border-top: 1px #e0e0e0 solid;
+      padding: 1.5em 1em;
+      margin: 0; }
+    .ym-form .ym-fbox + .ym-fbox {
+      margin: 0.5em 0; }
+    .ym-form .ym-fbox:last-child {
+      margin-bottom: 1em; }
+    .ym-form .ym-fbox + .ym-fbox-footer {
+      margin: 1em 0 0 0; }
+    .ym-form .ym-fbox :last-child,
+    .ym-form .ym-fbox-footer :last-child {
+      margin-bottom: 0; }
+    .ym-form .ym-fbox-heading {
+      font-size: 1em;
+      font-size: 100%;
+      color: #000;
+      margin: 1em; }
+    .ym-form .ym-fbox-check:focus + label {
+      color: #000; }
+    .ym-form .ym-gbox-left {
+      padding: 0 4px 0 0; }
+    .ym-form .ym-gbox-right {
+      padding: 0 0 0 4px; }
+    .ym-form .ym-gbox {
+      padding: 0 2px 0 2px; }
+
+  /**
+  * @section styling form elements
+  *
+  */
+  .ym-form input,
+  .ym-form textarea,
+  .ym-form select {
+    border: 1px solid #ddd;
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-shadow: inset 0 0 4px #eeeeee;
+    box-shadow: inset 0 0 4px #eeeeee; }
+  .ym-form input,
+  .ym-form textarea {
+    padding: 4px 0.3em; }
+  .ym-form select {
+    padding: 3px 2px 3px 1px; }
+  .ym-form input:focus,
+  .ym-form select:focus,
+  .ym-form textarea:focus,
+  .ym-form input:hover,
+  .ym-form select:hover,
+  .ym-form textarea:hover,
+  .ym-form input:active,
+  .ym-form select:active,
+  .ym-form textarea:active {
+    border: 1px #888 solid;
+    background: #fff; }
+  .ym-form optgroup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold; }
+  .ym-form .ym-fbox-check input,
+  .ym-form input[type="image"],
+  .ym-form input[type="radio"],
+  .ym-form input[type="checkbox"] {
+    border: 0 none !important;
+    background: transparent !important; }
+  .ym-form .ym-message {
+    color: #666;
+    margin-bottom: 0.5em; }
+  .ym-form .ym-required {
+    color: #800;
+    font-weight: bold; }
+  .ym-form input:valid,
+  .ym-form textarea:valid {
+    background-color: #fff; }
+  .ym-form input:invalid,
+  .ym-form textarea:invalid {
+    background-color: #fdd; }
+  .ym-form .ym-error label {
+    color: #800;
+    font-weight: normal; }
+  .ym-form .ym-error input,
+  .ym-form .ym-error select,
+  .ym-form .ym-error textarea {
+    border: 1px #800 solid; }
+  .ym-form .ym-error input:hover,
+  .ym-form .ym-error input:focus,
+  .ym-form .ym-error select:hover,
+  .ym-form .ym-error select:focus,
+  .ym-form .ym-error textarea:hover,
+  .ym-form .ym-error textarea:focus {
+    border: 1px #800 solid !important; }
+  .ym-form .ym-error .ym-message {
+    color: #800;
+    font-weight: bold;
+    margin-top: 0; }
+
+  /**
+  * @section Buttons
+  * inspired from: Catalin Rosu (http://www.red-team-design.com/just-another-awesome-css3-buttons)
+  */
+  .ym-button,
+  .ym-form button,
+  .ym-form input[type="button"],
+  .ym-form input[type="reset"],
+  .ym-form input[type="submit"] {
+    display: inline-block;
+    white-space: nowrap;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: linear-gradient(to bottom, #eeeeee,#cccccc);
+    background-color: #eeeeee;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFEEEEEE', endColorstr='#FFCCCCCC');
+    zoom: 1;
+    border: 1px solid #777;
+    border-radius: .2em;
+    -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #333 !important;
+    cursor: pointer;
+    font: normal 1em/2em Arial, Helvetica;
+    margin: 0 0.75em 0 0;
+    padding: 0 1.5em;
+    overflow: visible;
+    /* removes extra side spacing in IE */
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+    .ym-button:hover,
+    .ym-form button:hover,
+    .ym-form input[type="button"]:hover,
+    .ym-form input[type="reset"]:hover,
+    .ym-form input[type="submit"]:hover {
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #dddddd));
+      background-image: -webkit-linear-gradient(top, #fafafa, #dddddd);
+      background-image: -moz-linear-gradient(top, #fafafa, #dddddd);
+      background-image: -ms-linear-gradient(top, #fafafa, #dddddd);
+      background-image: linear-gradient(to bottom, #fafafa,#dddddd);
+      background-color: #fafafa;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFFAFAFA', endColorstr='#FFDDDDDD');
+      zoom: 1; }
+    .ym-button:active,
+    .ym-form button:active,
+    .ym-form input[type="button"]:active,
+    .ym-form input[type="reset"]:active,
+    .ym-form input[type="submit"]:active {
+      -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cccccc), color-stop(100%, #bbbbbb));
+      background-image: -webkit-linear-gradient(top, #cccccc, #bbbbbb);
+      background-image: -moz-linear-gradient(top, #cccccc, #bbbbbb);
+      background-image: -ms-linear-gradient(top, #cccccc, #bbbbbb);
+      background-image: linear-gradient(to bottom, #cccccc,#bbbbbb);
+      background-color: #cccccc;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFCCCCCC', endColorstr='#FFBBBBBB');
+      zoom: 1;
+      position: relative;
+      top: 1px; }
+    .ym-button:focus,
+    .ym-form button:focus,
+    .ym-form input[type="button"]:focus,
+    .ym-form input[type="reset"]:focus,
+    .ym-form input[type="submit"]:focus {
+      outline: 0;
+      background: #fafafa; }
+
+  /* Button size-scaling classes */
+  .ym-button {
+    /* 21px */
+    /* 18px */
+    /* 12px */
+    /* 10px */ }
+    .ym-button.ym-xlarge {
+      font-size: 1.5em; }
+    .ym-button.ym-large {
+      font-size: 1.2857em; }
+    .ym-button.ym-small {
+      font-size: 0.8571em; }
+    .ym-button.ym-xsmall {
+      font-size: 0.7143em; }
+
+  /* Button color scheme: primary */
+  .ym-button.ym-primary,
+  .ym-form button.ym-primary,
+  .ym-form input[type="button"].ym-primary,
+  .ym-form input[type="reset"].ym-primary,
+  .ym-form input[type="submit"].ym-primary {
+    -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8888ee), color-stop(100%, #6666cc));
+    background-image: -webkit-linear-gradient(top, #8888ee, #6666cc);
+    background-image: -moz-linear-gradient(top, #8888ee, #6666cc);
+    background-image: -ms-linear-gradient(top, #8888ee, #6666cc);
+    background-image: linear-gradient(to bottom, #8888ee,#6666cc);
+    background-color: #8888ee;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF8888EE', endColorstr='#FF6666CC');
+    zoom: 1;
+    border: 1px solid #007;
+    color: #fff !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8); }
+    .ym-button.ym-primary:hover,
+    .ym-form button.ym-primary:hover,
+    .ym-form input[type="button"].ym-primary:hover,
+    .ym-form input[type="reset"].ym-primary:hover,
+    .ym-form input[type="submit"].ym-primary:hover {
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8888ff), color-stop(100%, #6666dd));
+      background-image: -webkit-linear-gradient(top, #8888ff, #6666dd);
+      background-image: -moz-linear-gradient(top, #8888ff, #6666dd);
+      background-image: -ms-linear-gradient(top, #8888ff, #6666dd);
+      background-image: linear-gradient(to bottom, #8888ff,#6666dd);
+      background-color: #8888ff;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF8888FF', endColorstr='#FF6666DD');
+      zoom: 1; }
+    .ym-button.ym-primary:active,
+    .ym-form button.ym-primary:active,
+    .ym-form input[type="button"].ym-primary:active,
+    .ym-form input[type="reset"].ym-primary:active,
+    .ym-form input[type="submit"].ym-primary:active {
+      -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8888cc), color-stop(100%, #6666aa));
+      background-image: -webkit-linear-gradient(top, #8888cc, #6666aa);
+      background-image: -moz-linear-gradient(top, #8888cc, #6666aa);
+      background-image: -ms-linear-gradient(top, #8888cc, #6666aa);
+      background-image: linear-gradient(to bottom, #8888cc,#6666aa);
+      background-color: #8888cc;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF8888CC', endColorstr='#FF6666AA');
+      zoom: 1; }
+    .ym-button.ym-primary:focus,
+    .ym-form button.ym-primary:focus,
+    .ym-form input[type="button"].ym-primary:focus,
+    .ym-form input[type="reset"].ym-primary:focus,
+    .ym-form input[type="submit"].ym-primary:focus {
+      outline: 0;
+      background: #88f; }
+
+  /* Button color scheme: success */
+  .ym-button.ym-success,
+  .ym-form button.ym-success,
+  .ym-form input[type="button"].ym-success,
+  .ym-form input[type="reset"].ym-success,
+  .ym-form input[type="submit"].ym-success {
+    -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66bb66), color-stop(100%, #449944));
+    background-image: -webkit-linear-gradient(top, #66bb66, #449944);
+    background-image: -moz-linear-gradient(top, #66bb66, #449944);
+    background-image: -ms-linear-gradient(top, #66bb66, #449944);
+    background-image: linear-gradient(to bottom, #66bb66,#449944);
+    background-color: #66bb66;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF66BB66', endColorstr='#FF449944');
+    zoom: 1;
+    border: 1px solid #070;
+    color: #fff !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8); }
+    .ym-button.ym-success:hover,
+    .ym-form button.ym-success:hover,
+    .ym-form input[type="button"].ym-success:hover,
+    .ym-form input[type="reset"].ym-success:hover,
+    .ym-form input[type="submit"].ym-success:hover {
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66cc66), color-stop(100%, #55aa55));
+      background-image: -webkit-linear-gradient(top, #66cc66, #55aa55);
+      background-image: -moz-linear-gradient(top, #66cc66, #55aa55);
+      background-image: -ms-linear-gradient(top, #66cc66, #55aa55);
+      background-image: linear-gradient(to bottom, #66cc66,#55aa55);
+      background-color: #66cc66;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF66CC66', endColorstr='#FF55AA55');
+      zoom: 1; }
+    .ym-button.ym-success:active,
+    .ym-form button.ym-success:active,
+    .ym-form input[type="button"].ym-success:active,
+    .ym-form input[type="reset"].ym-success:active,
+    .ym-form input[type="submit"].ym-success:active {
+      -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66aa66), color-stop(100%, #448844));
+      background-image: -webkit-linear-gradient(top, #66aa66, #448844);
+      background-image: -moz-linear-gradient(top, #66aa66, #448844);
+      background-image: -ms-linear-gradient(top, #66aa66, #448844);
+      background-image: linear-gradient(to bottom, #66aa66,#448844);
+      background-color: #66aa66;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FF66AA66', endColorstr='#FF448844');
+      zoom: 1; }
+    .ym-button.ym-success:focus,
+    .ym-form button.ym-success:focus,
+    .ym-form input[type="button"].ym-success:focus,
+    .ym-form input[type="reset"].ym-success:focus,
+    .ym-form input[type="submit"].ym-success:focus {
+      outline: 0;
+      background: #6c6; }
+
+  /* Button color scheme: warning */
+  .ym-button.ym-warning,
+  .ym-form button.ym-warning,
+  .ym-form input[type="button"].ym-warning,
+  .ym-form input[type="reset"].ym-warning,
+  .ym-form input[type="submit"].ym-warning {
+    -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddaa44), color-stop(100%, #bb7722));
+    background-image: -webkit-linear-gradient(top, #ddaa44, #bb7722);
+    background-image: -moz-linear-gradient(top, #ddaa44, #bb7722);
+    background-image: -ms-linear-gradient(top, #ddaa44, #bb7722);
+    background-image: linear-gradient(to bottom, #ddaa44,#bb7722);
+    background-color: #ddaa44;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFDDAA44', endColorstr='#FFBB7722');
+    zoom: 1;
+    border: 1px solid #970;
+    color: #fff !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8); }
+    .ym-button.ym-warning:hover,
+    .ym-form button.ym-warning:hover,
+    .ym-form input[type="button"].ym-warning:hover,
+    .ym-form input[type="reset"].ym-warning:hover,
+    .ym-form input[type="submit"].ym-warning:hover {
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eebb55), color-stop(100%, #cc8833));
+      background-image: -webkit-linear-gradient(top, #eebb55, #cc8833);
+      background-image: -moz-linear-gradient(top, #eebb55, #cc8833);
+      background-image: -ms-linear-gradient(top, #eebb55, #cc8833);
+      background-image: linear-gradient(to bottom, #eebb55,#cc8833);
+      background-color: #eebb55;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFEEBB55', endColorstr='#FFCC8833');
+      zoom: 1; }
+    .ym-button.ym-warning:active,
+    .ym-form button.ym-warning:active,
+    .ym-form input[type="button"].ym-warning:active,
+    .ym-form input[type="reset"].ym-warning:active,
+    .ym-form input[type="submit"].ym-warning:active {
+      -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cc9944), color-stop(100%, #aa6622));
+      background-image: -webkit-linear-gradient(top, #cc9944, #aa6622);
+      background-image: -moz-linear-gradient(top, #cc9944, #aa6622);
+      background-image: -ms-linear-gradient(top, #cc9944, #aa6622);
+      background-image: linear-gradient(to bottom, #cc9944,#aa6622);
+      background-color: #cc9944;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFCC9944', endColorstr='#FFAA6622');
+      zoom: 1; }
+    .ym-button.ym-warning:focus,
+    .ym-form button.ym-warning:focus,
+    .ym-form input[type="button"].ym-warning:focus,
+    .ym-form input[type="reset"].ym-warning:focus,
+    .ym-form input[type="submit"].ym-warning:focus {
+      outline: 0;
+      background: #da4; }
+
+  /* Button color scheme: danger */
+  .ym-button.ym-danger,
+  .ym-form button.ym-danger,
+  .ym-form input[type="button"].ym-danger,
+  .ym-form input[type="reset"].ym-danger,
+  .ym-form input[type="submit"].ym-danger {
+    -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bb6666), color-stop(100%, #994444));
+    background-image: -webkit-linear-gradient(top, #bb6666, #994444);
+    background-image: -moz-linear-gradient(top, #bb6666, #994444);
+    background-image: -ms-linear-gradient(top, #bb6666, #994444);
+    background-image: linear-gradient(to bottom, #bb6666,#994444);
+    background-color: #bb6666;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFBB6666', endColorstr='#FF994444');
+    zoom: 1;
+    border: 1px solid #700;
+    color: #fff !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8); }
+    .ym-button.ym-danger:hover,
+    .ym-form button.ym-danger:hover,
+    .ym-form input[type="button"].ym-danger:hover,
+    .ym-form input[type="reset"].ym-danger:hover,
+    .ym-form input[type="submit"].ym-danger:hover {
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cc6666), color-stop(100%, #aa5555));
+      background-image: -webkit-linear-gradient(top, #cc6666, #aa5555);
+      background-image: -moz-linear-gradient(top, #cc6666, #aa5555);
+      background-image: -ms-linear-gradient(top, #cc6666, #aa5555);
+      background-image: linear-gradient(to bottom, #cc6666,#aa5555);
+      background-color: #cc6666;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFCC6666', endColorstr='#FFAA5555');
+      zoom: 1; }
+    .ym-button.ym-danger:active,
+    .ym-form button.ym-danger:active,
+    .ym-form input[type="button"].ym-danger:active,
+    .ym-form input[type="reset"].ym-danger:active,
+    .ym-form input[type="submit"].ym-danger:active {
+      -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aa5555), color-stop(100%, #884444));
+      background-image: -webkit-linear-gradient(top, #aa5555, #884444);
+      background-image: -moz-linear-gradient(top, #aa5555, #884444);
+      background-image: -ms-linear-gradient(top, #aa5555, #884444);
+      background-image: linear-gradient(to bottom, #aa5555,#884444);
+      background-color: #aa5555;
+      filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFAA5555', endColorstr='#FF884444');
+      zoom: 1; }
+    .ym-button.ym-danger:focus,
+    .ym-form button.ym-danger:focus,
+    .ym-form input[type="button"].ym-danger:focus,
+    .ym-form input[type="reset"].ym-danger:focus,
+    .ym-form input[type="submit"].ym-danger:focus {
+      outline: 0;
+      background: #c66; }
+
+  /* pseudo elements don't work on input */
+  .ym-form button:before,
+  .ym-button:before {
+    background: #ccc;
+    background: rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    -webkit-box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none; }
+
+  .ym-add:before {
+    content: "\271A"; }
+
+  .ym-delete:before {
+    content: "\2718"; }
+
+  .ym-close:before {
+    content: "\2715"; }
+
+  .ym-edit:before {
+    content: "\270E"; }
+
+  .ym-email:before {
+    content: "\2709"; }
+
+  .ym-like:before {
+    content: "\2764"; }
+
+  .ym-next:before {
+    content: "\279C"; }
+
+  .ym-play:before {
+    content: "\25B6"; }
+
+  .ym-reply:before {
+    content: "\27A5"; }
+
+  .ym-save:before {
+    content: "\2714"; }
+
+  .ym-sign:before {
+    content: "\270D"; }
+
+  .ym-spark:before {
+    content: "\2737"; }
+
+  .ym-support:before {
+    content: "\2706"; }
+
+  .ym-star:before {
+    content: "\2605"; }
+
+  /* removes extra inner spacing in Firefox */
+  .ym-form button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+  /* If line-height can't be modified, then fix Firefox spacing with padding */
+  .ym-form input[type=button]::-moz-focus-inner,
+  .ym-form input[type=reset]::-moz-focus-inner,
+  .ym-form input[type=submit]::-moz-focus-inner {
+    padding: .4em; }
+
+  /* The disabled styles */
+  .ym-form button[disabled],
+  .ym-form button[disabled]:hover,
+  .ym-form input[type=button][disabled],
+  .ym-form input[type=button][disabled]:hover,
+  .ym-form input[type=reset][disabled],
+  .ym-form input[type=reset][disabled]:hover,
+  .ym-form input[type=submit][disabled],
+  .ym-form input[type=submit][disabled]:hover,
+  .ym-button.ym-disabled,
+  .ym-button.ym-disabled:hover {
+    background: #eee;
+    color: #aaa !important;
+    border-color: #aaa;
+    cursor: default;
+    text-shadow: none;
+    position: static;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+  /* ie6 support styles - redefined buttons, because of missing support for attribute selectors */
+  * html .ym-button,
+  * html .ym-form button {
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    color: #333 !important;
+    cursor: pointer;
+    font: normal 1em/2em Arial, Helvetica;
+    margin: 1.5em 0.75em 0 0;
+    padding: 0 1.5em;
+    overflow: visible;
+    /* removes extra side spacing in IE */
+    text-decoration: none !important; }
+  * html .ym-form button:focus,
+  * html .ym-button:focus {
+    outline: 0;
+    background: #fafafa; }
+  * html .ym-form button:hover,
+  * html .ym-button:hover {
+    background-color: #ddd;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd'); }
+  * html .ym-form button:active,
+  * html .ym-button:active {
+    background-color: #bbb;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cccccc', EndColorStr='#bbbbbb');
+    position: relative;
+    top: 1px; }
+  * html .ym-button.ym-disabled,
+  * html .ym-button.ym-disabled:hover {
+    background: #eee;
+    color: #aaa !important;
+    border-color: #aaa;
+    cursor: default;
+    text-shadow: none;
+    position: static; }
+  * html .ym-button {
+    /* Button size-scaling classes */
+    /* 21px */
+    /* 18px */
+    /* 12px */
+    /* 10px */ }
+    * html .ym-button.ym-primary {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#8888ee', EndColorStr='#6666cc'); }
+    * html .ym-button.ym-success {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#66bb66', EndColorStr='#449944'); }
+    * html .ym-button.ym-warning {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddaa44', EndColorStr='#BB7722'); }
+    * html .ym-button.ym-danger {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#bb6666', EndColorStr='#994444'); }
+    * html .ym-button.ym-xlarge {
+      font-size: 1.5em; }
+    * html .ym-button.ym-large {
+      font-size: 1.2857em; }
+    * html .ym-button.ym-small {
+      font-size: 0.8571em; }
+    * html .ym-button.ym-xsmall {
+      font-size: 0.7143em; } }
+@media all {
+  /*
+  * @section global typography settings
+  *
+  * vertical rhythm settings (based on em-unit)
+  * -------------------------------------------
+  * basefont-size:  14px (87.5%)
+  * line-height  :  21px (factor: 1.5) */
+  /* (en) reset font size for all elements to standard (16 Pixel) */
+  /* (de) Alle Schriftgrößen auf Standardgröße (16 Pixel) zurücksetzen */
+  html * {
+    font-size: 100%; }
+
+  /**
+  * (en) reset monospaced elements to font size 16px in all browsers
+  * (de) Schriftgröße von monospaced Elemente in allen Browsern auf 16 Pixel setzen
+  *
+  * @see: http://webkit.org/blog/67/strange-medium/
+  */
+  textarea,
+  pre,
+  code,
+  kbd,
+  samp,
+  var,
+  tt {
+    font-family: Consolas, "Lucida Console", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier; }
+
+  /* font-size: 14px; */
+  body {
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+    font-size: 87.5%;
+    color: #444444; }
+
+  /*--- Headings | Überschriften ------------------------------------------------------------------------*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #161e21;
+    margin: 0; }
+
+  h1 {
+    /* font-size: 48px; */
+    font-size: 342.85714%;
+    line-height: 0.875;
+    margin: 0 0 0.4375em 0; }
+
+  h2 {
+    /* font-size: 32px; */
+    font-size: 228.57143%;
+    line-height: 1.3125;
+    margin: 0 0 0.65625em 0; }
+
+  h3 {
+    /* font-size: 24px; */
+    font-size: 171.42857%;
+    line-height: 0.875;
+    margin: 0 0 0.875em 0; }
+
+  h4 {
+    /* font-size: 21px; */
+    font-size: 150%;
+    line-height: 1;
+    margin: 0 0 1em 0; }
+
+  h5 {
+    /* font-size: 18px; */
+    font-size: 128.57143%;
+    line-height: 1.16667;
+    margin: 0 0 1.16667em 0; }
+
+  h6 {
+    /* font-size: 14px; */
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0; }
+
+  /* --- Lists | Listen  -------------------------------------------------------------------------------- */
+  ul,
+  ol,
+  dl {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0; }
+
+  ul {
+    list-style-type: disc; }
+
+  ol {
+    list-style-type: decimal; }
+
+  ul ul {
+    list-style-type: circle;
+    margin-top: 0; }
+
+  ol ol {
+    list-style-type: lower-latin;
+    margin-top: 0; }
+
+  ol ul {
+    list-style-type: circle;
+    margin-top: 0; }
+
+  li {
+    font-size: 100%;
+    line-height: 1.5;
+    margin-left: 1.2em; }
+
+  dt {
+    font-weight: bold; }
+
+  dd {
+    margin: 0 0 1.5em 0.8em; }
+
+  /* --- general text formatting | Allgemeine Textauszeichnung ------------------------------------------ */
+  p {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0; }
+
+  blockquote,
+  cite,
+  q {
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+    font-style: italic; }
+
+  blockquote {
+    background: transparent;
+    color: #666666;
+    margin: 1.5em 0 0 1.5em; }
+
+  strong,
+  b {
+    font-weight: bold; }
+
+  em,
+  i {
+    font-style: italic; }
+
+  big {
+    /* font-size: 16px; */
+    font-size: 114.28571%;
+    line-height: 1.3125; }
+
+  small {
+    /* font-size: 12px; */
+    font-size: 85.71429%;
+    line-height: 1.75; }
+
+  pre,
+  code,
+  kbd,
+  tt,
+  samp,
+  var {
+    font-size: 100%; }
+
+  pre {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word; }
+
+  pre,
+  code {
+    color: #880000; }
+
+  kbd,
+  samp,
+  var,
+  tt {
+    color: #666666;
+    font-weight: bold; }
+
+  var,
+  dfn {
+    font-style: italic; }
+
+  acronym,
+  abbr {
+    border-bottom: 1px #aaa dotted;
+    font-variant: small-caps;
+    letter-spacing: .07em;
+    cursor: help; }
+
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
+
+  sup {
+    top: -0.5em; }
+
+  sub {
+    bottom: -0.25em; }
+
+  mark {
+    background: yellow;
+    color: black; }
+
+  hr {
+    color: #fff;
+    background: transparent;
+    margin: 0 0 0.75em 0;
+    padding: 0 0 0.67857em 0;
+    border: 0;
+    border-bottom: 1px #eeeeee solid; }
+
+  /*--- Links ----------------------------------------------------------------------------------------- */
+  a {
+    color: #4d87c7;
+    background: transparent;
+    text-decoration: none; }
+
+  a:active {
+    outline: none; }
+
+  /* (en) maximum constrast for tab focus - change with great care */
+  /* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
+  a:hover,
+  a:focus {
+    background-color: #4d87c7;
+    color: white;
+    text-decoration: none; }
+
+  /* --- images ------------------ */
+  img,
+  figure {
+    margin: 0; }
+
+  .flexible {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+    height: auto; }
+
+  /* IE6 workaround - 2% space for possible borders */
+  * html .flexible {
+    width: 98%; }
+
+  .bordered {
+    margin-bottom: 1.5em;
+    border: 2px #eee solid;
+    border: 2px white solid;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); }
+
+  /**
+  * ----------------------------------------------------------------------- #
+  *
+  * Generic Content Classes
+  *
+  * (en) standard classes for positioning and highlighting
+  * (de) Standardklassen zur Positionierung und Hervorhebung
+  *
+  * @section content-generic-classes
+  */
+  .highlight {
+    color: #cc3300; }
+
+  .dimmed {
+    color: #888888; }
+
+  .box {
+    border-radius: 0.3em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #888;
+    border-color: rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    color: #444;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 1.42857em;
+    margin: 0 0 1.5em 0; }
+    .box > *:last-child {
+      margin-bottom: 0; }
+
+  .label {
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 1px 6px 2px;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: normal;
+    white-space: nowrap;
+    border-radius: 3px;
+    background: #06C;
+    color: #fff;
+    font-size: 10px;
+    line-height: 12px; }
+
+  .info {
+    background: #f4f4f4; }
+
+  .success {
+    background: #88cc88; }
+
+  .warning {
+    background: #cccc88; }
+
+  .error {
+    background: #cc8888; }
+
+  .float-left {
+    float: left;
+    display: inline;
+    margin: 0 1em 1.5em 0; }
+
+  .float-right {
+    float: right;
+    display: inline;
+    margin: 0 0 1.5em 1em; }
+
+  .center {
+    display: block;
+    text-align: center;
+    margin: 0 auto 1.5em auto; }
+
+  /**
+  * ------------------------------------------------------------------------------------------------- #
+  *
+  * Tables | Tabellen
+  *
+  * (en) Generic classes for table-width and design definition
+  * (de) Generische Klassen für die Tabellenbreite und Gestaltungsvorschriften für Tabellen
+  *
+  * @section content-tables
+  */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #444444;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    margin: 0 0 1.35714em 0; }
+    table.narrow {
+      margin: 0 0 1.42857em 0; }
+      table.narrow th,
+      table.narrow td {
+        padding: 0 0.5em;
+        line-height: 1.42857; }
+    table.fixed {
+      table-layout: fixed; }
+    table.bordertable {
+      border: 1px #ccc solid; }
+      table.bordertable thead th {
+        background: #e0e0e0;
+        border-right: 1px #ccc solid;
+        border-bottom: 1px #ccc solid; }
+      table.bordertable tbody th[scope="row"] {
+        background: #f0f0f0; }
+      table.bordertable tbody th {
+        border-right: 1px solid #ccc; }
+      table.bordertable tbody td {
+        border-right: 1px solid #ccc; }
+
+  caption {
+    font-variant: small-caps; }
+
+  th,
+  td {
+    line-height: 1.5em;
+    vertical-align: top;
+    padding: 0.71429em 0.5em; }
+
+  th *:first-child,
+  td *:first-child {
+    margin-top: 0; }
+
+  th.nowrap,
+  td.nowrap {
+    white-space: nowrap; }
+
+  thead th {
+    text-align: left;
+    color: #000;
+    border-bottom: 2px #000 solid; }
+
+  tbody {
+    /* highlight row on mouse over */ }
+    tbody th {
+      text-align: left;
+      border-top: 1px solid #ccc; }
+    tbody td {
+      text-align: left;
+      border-top: 1px solid #ccc; }
+    tbody tr:hover th,
+    tbody tr:hover td {
+      background: #f8f8f8; } }
+@media screen {
+  /* force vertical scrollbar */
+  body {
+    overflow-y: scroll; }
+
+  /* Layout Module Configuration */
+  .ym-wrapper {
+    max-width: 80em;
+    margin: 0 auto; }
+
+  .ym-wbox {
+    padding: 1.5em; }
+
+  /* fallback for missing media queries support*/
+  body > header, body > nav, body > main, body > footer {
+    min-width: 760px; }
+
+  /* Basic Element Styling */
+  header {
+    background: #444;
+    color: #ccc; }
+    header h1 {
+      background: transparent;
+      color: #fff; }
+    header .ym-wbox {
+      padding: 1.5em; }
+
+  nav {
+    background: #222222; }
+
+  main .info {
+    margin-bottom: 1.5em; }
+  main aside .ym-gbox-right {
+    border-left: 1px #ddd solid; }
+
+  footer {
+    background: #eee;
+    color: #444; }
+    footer p {
+      margin: 0; }
+    footer .ym-wbox {
+      padding: 1.5em; }
+
+  .ym-gbox {
+    padding: 0 1.5em; }
+
+  .ym-gbox-left {
+    padding: 0 1.5em 0 0; }
+
+  .ym-gbox-right {
+    padding: 0 0 0 1.5em; }
+
+  /* skip links styling */
+  .ym-skiplinks a.ym-skip:focus,
+  .ym-skiplinks a.ym-skip:active {
+    color: #fff;
+    background: #333;
+    border-bottom: 1px #000 solid;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none; } }
+/* reset fallback values in modern browsers */
+@media screen and (min-width: 0px) {
+  body > header, body > nav, body > main, body > footer {
+    min-width: 0; } }
+@media screen and (max-width: 760px) {
+  /* Linearisation for Grid- and Column-Module, based on CSS class .linearize-level-1 */
+  .linearize-level-1, .linearize-level-1 > [class*="ym-c"], .linearize-level-1 > [class*="ym-g"] {
+    /* linearization for grids and columns module */
+    display: block;
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: auto !important; }
+  .linearize-level-1 > [class*="ym-c"] > [class*="ym-cbox"], .linearize-level-1 > [class*="ym-g"] > [class*="ym-gbox"] {
+    /* reset defined gutter values */
+    margin: 0;
+    padding: 0;
+    /* optional for containing floats */
+    overflow: hidden; }
+
+  .secondary {
+    border-top: 1px #888 solid;
+    margin-top: 1.5em !important;
+    padding-top: 1.5em !important; }
+
+  main aside .ym-gbox-right {
+    border: 0 none; }
+
+  .ym-searchform {
+    display: block;
+    float: none;
+    width: auto;
+    text-align: right; }
+
+  .ym-searchform input[type="search"] {
+    width: 14%; } }
+@media screen and (max-width: 480px) {
+  /* Linearisation for Grid- and Column-Module, based on CSS class .linearize-level-2 */
+  .linearize-level-2, .linearize-level-2 > [class*="ym-c"], .linearize-level-2 > [class*="ym-g"] {
+    /* linearization for grids and columns module */
+    display: block;
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: auto !important; }
+  .linearize-level-2 > [class*="ym-c"] > [class*="ym-cbox"], .linearize-level-2 > [class*="ym-g"] > [class*="ym-gbox"] {
+    /* reset defined gutter values */
+    margin: 0;
+    padding: 0;
+    /* optional for containing floats */
+    overflow: hidden; }
+
+  header .ym-wbox {
+    padding: 0.75em 10px; }
+  header h1 {
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: 0; }
+
+  footer .ym-wbox,
+  .ym-wbox,
+  .ym-searchform,
+  nav .ym-hlist ul {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  .ym-searchform,
+  nav .ym-hlist ul,
+  nav .ym-hlist li {
+    display: block;
+    float: none;
+    width: auto;
+    text-align: left; }
+
+  .ym-searchform input[type="search"] {
+    width: 75%; } }
+@media print {
+  /**
+  * @section basic layout preparation
+  */
+  /* (en) change font size unit to [pt] - avoids problems with [px] in Gecko based browsers */
+  /* (de) Wechsel der der Schriftgrößen-Maßheinheit zu [pt] - Probleme mit [px] in Gecko-Browsern vermeiden */
+  body {
+    font-size: 10pt;
+    padding: 0 5px; }
+
+  /* (en) Hide unneeded container of the screenlayout in print layout */
+  /* (de) Für den Druck nicht benötigte Container des Layouts abschalten */
+  nav,
+  .ym-searchform {
+    display: none; }
+
+  /*------------------------------------------------------------------------------------------------------*/
+  /* (en) Avoid page breaks right after headings */
+  /* (de) Vermeidung von Seitenumbrüchen direkt nach einer Überschrift */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid; } }
+/* WP-YAML */
+/**
+ * WP YAML - Clean and responsive Wordpress starter theme
+ *
+ * WP YAML SCSS Imports
+ *
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  License: CC Attribution 3.0 http://creativecommons.org/licenses/by/3.0/
+ *   
+ *  
+ *  This is the WP YAML stylesheet where all theme-specific styling in addition to the YAML base comes together.
+ *  
+ *  Add your own styling in _custom.scss and/or edit this file and the imported files.
+ *  
+ * @package WP YAML
+ * @version 0.2 
+ * @since WP YAML 0.1.0
+ **/
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  WP YAML all variables, edit as you like!
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+ */
+/* You can use any em, px and % values here! */
+/* You can use any em, px and % values here! DELETE???*/
+/* Vertical margins between header/content/footer , you can use any em, px and % values here! */
+/* Experimental feature - don't change this value unless you understand what you're doing...  DELETE???*/
+/* YAML grey */
+/* YAML white */
+/*YAML red */
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for the layout styles.
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+  
+/* BOX-SIZING - the include of boxsizing.htc for IE 6 & 7 is in scripts.php */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* TOTAL SITE WIDTH */
+.ym-wrapper {
+  max-width: 80em; }
+
+/* COLUMNS */
+.ym-col1 {
+  /* content */
+  float: left;
+  width: 75%; }
+  .ym-col1 .ym-cbox {
+    padding: 0 20px 0 0; }
+
+.ym-col3 {
+  /* sidebar */
+  margin: 0 0 0 75%; }
+  .ym-col3 .ym-cbox {
+    padding: 0 0 0 20px; }
+
+/* LINEARIZATION LEVEL 1 */
+@media screen and (max-width: 760px) {
+  /* linearization for grid module */
+  .linearize-level-1 {
+    display: block;
+    float: none;
+    padding: 0 1.5em;
+    margin: 0;
+    width: 100% !important; }
+    .linearize-level-1 > [class*="ym-g"] {
+      display: block;
+      float: none;
+      padding: 0;
+      margin: 0;
+      width: 100% !important; }
+      .linearize-level-1 > [class*="ym-g"] > [class*="ym-gbox"] {
+        overflow: hidden;
+        /* optional for containing floats */
+        padding: 0;
+        margin: 0; } }
+/* Add some air around navigations and footer... */
+nav.headernav, p.copyright {
+  margin-bottom: 2em; }
+
+nav.footernav {
+  margin-top: 2em; }
+
+footer {
+  padding: 2em 0; }
+  footer p {
+    text-align: center; }
+
+/* FONT SCALING */
+body {
+  font-size: 100%; }
+
+/* Small font size */
+small, p.small {
+  font-size: 75%; }
+
+/*  Welcome to WP-YAML :)
+ *  URL: htp://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for forms styling.
+ */
+/* Hide label in search Form */
+div.ym-fbox-text label.hide {
+  display: none; }
+
+/* Forms div */
+input, textarea {
+  font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif; }
+
+#commentform {
+  width: 50%; }
+  #commentform .ym-fbox-text {
+    margin-top: 1em; }
+    #commentform .ym-fbox-text input, #commentform .ym-fbox-text textarea {
+      line-height: 1em;
+      padding: .25em .3em; }
+
+#searchform .ym-fbox-text {
+  width: 50%;
+  float: left; }
+  #searchform .ym-fbox-text input, #searchform .ym-fbox-text textarea {
+    line-height: 1em;
+    padding: .25em .3em; }
+#searchform .ym-fbox-button {
+  float: left;
+  width: 40%;
+  margin: 0 0 2em 10%; }
+  #searchform .ym-fbox-button input {
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif; }
+
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for the pagination styling.
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+/* Pagination & Comments*/
+#content ul.page-numbers, #content #comments nav ul, #comments nav #content ul, #comments nav ul {
+  display: block;
+  margin-left: -1em; }
+  #content ul.page-numbers li, #content #comments nav ul li, #comments nav #content ul li, #comments nav ul li {
+    float: left;
+    display: block;
+    height: 24px;
+    color: #999;
+    margin-left: 1em; }
+    #content ul.page-numbers li a, #content #comments nav ul li a, #comments nav #content ul li a, #comments nav ul li a {
+      display: block;
+      padding: 1px 7px 1px; }
+    #content ul.page-numbers li span.current, #content #comments nav ul li span.current, #comments nav #content ul li span.current, #comments nav ul li span.current {
+      background-color: #4D87C7;
+      color: white;
+      text-decoration: none;
+      cursor: default;
+      display: block;
+      padding: 1px 7px 1px; }
+
+/*  Welcome to WP-YAML :)
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  See style.css in main theme folder for all credits.
+ *  
+ *  This file is reserved for comments styling.
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ * 
+ */
+#comments nav {
+  background: transparent;
+  color: #444444; }
+
+#comments ol {
+  font-weight: 700; }
+  #comments ol li {
+    margin: 2em 0 0 1.5em; }
+    #comments ol li:first-child {
+      margin: 1em 0 0 1.5em; }
+    #comments ol li article {
+      font-weight: 400; }
+
+/**
+ * WP YAML - Clean and responsive Wordpress starter theme
+ *
+ * Some basic Wordpress styling, edit as you like...
+ *  
+ * @package WP YAML
+ * @version 0.2 
+ * @since WP YAML 0.1.0
+ **/
+/* Fix article header & footer background */
+article header {
+  background: transparent;
+  color: #444444; }
+  article header h1 {
+    background: transparent;
+    color: #161e21; }
+
+article footer {
+  background: transparent;
+  color: #444444; }
+
+/* Fix header h1 margin, padding, link color and hover YAML style */
+header div.header h1 {
+  margin: 0;
+  padding: 0.875em 0; }
+  header div.header h1 a {
+    color: #eeeeee; }
+    header div.header h1 a:hover {
+      color: #eeeeee;
+      background: #444444; }
+
+/* Navigation */
+.ym-hlist ul {
+  margin: 0;
+  padding: 0.5em 0;
+  display: inline;
+  float: left; }
+
+/* Top margin for sidebar widgets */
+.widget {
+  margin: 1.96875em 0 0; }
+
+/* Remove list element icons in sidebar */
+.sidebar ul {
+  list-style-type: none; }
+
+/* Accent color under sidebar titles */
+.sidebar h4 {
+  border-bottom: 1px #aa1124 solid; }
+
+/* Image alignment*/
+img.alignleft {
+  float: left;
+  display: inline;
+  margin: 0 1em 1em 0; }
+img.alignright {
+  float: right;
+  display: inline;
+  margin: 0 0 1em 1em; }
+img.aligncenter {
+  display: block;
+  text-align: center;
+  margin: 1.5em auto 0 auto; }
+
+/* Everything responsive*/
+img, video, audio, embed, object, input, iframe {
+  max-width: 100%; }
+
+/* More Link */
+.more-link {
+  float: right;
+  margin-top: 1em; }
+
+/* Clear Div */
+.clear {
+  clear: both;
+  height: 0;
+  margin: 0;
+  padding: 0; }
+
+/* Your Custom Styles */
+/*  WP-YAML  v0.2
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  
+ *  ...place your custom scss styling here, and/or use additional includes in styles.scss....
+ *  
+ * @package WP YAML
+ * @since WP YAML 0.1.0
+ */

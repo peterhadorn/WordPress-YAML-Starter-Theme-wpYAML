@@ -1,8 +1,8 @@
-/* required+ Foundation is a responsive WordPress starter theme based on the YAML CSS framework. */
+/* WP YAML is a responsive WordPress starter theme based on the YAML CSS framework. */
 
 /* TEAM */
 
-Peter Hadorn & Hadorn AG Team
+Peter Hadorn & Team
 http://www.hadornag.ch
 Twitter: @peterhadorn
 WP YAML: http://wpyaml.com
@@ -11,9 +11,6 @@ WP YAML: http://wpyaml.com
 
 YAML
 http://yaml.de/
-
-YAML 4 SASS
-https://github.com/djesse/yaml4-sass
 
 BONES
 http://themble.com/bones/

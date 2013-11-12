@@ -5,10 +5,11 @@
  * Template for displaying the sidebar
  *
  * @package WP YAML
+ * @version 0.2 
  * @since WP YAML 0.1.0
  */
 ?>
-	<div id="sidebar1" class="ym-g25 ym-gr sidebar" role="complementary">
+	<div id="sidebar1" class="ym-cbox sidebar" role="complementary">
 		<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
 			<?php dynamic_sidebar( 'sidebar1' ); ?>
 		<?php else : ?>

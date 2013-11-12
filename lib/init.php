@@ -11,7 +11,7 @@
  * @since WP YAML 0.1.0
  * 
 /*********************
-Initialize WP YAML
+Initialize WP YAML!
 *********************/
 
 // we're firing all out initial functions at the start
@@ -40,9 +40,7 @@ function wpyaml_init() {
     add_filter('excerpt_more', 'wpyaml_excerpt_more');
 }
 
-/*********************
-CLEAN WP HEAD
-*********************/
+// clean WP Head
 function wpyaml_head_cleanup() {
 	// category feeds
 	remove_action( 'wp_head', 'feed_links_extra', 3 );
@@ -98,10 +96,7 @@ function wpyaml_gallery_style($css) {
   return preg_replace("!<style type='text/css'>(.*?)</style>!s", '', $css);
 }
 
-/*********************
-THEME SUPPORT
-*********************/
-// Adding WP 3+ Functions & Theme Support
+// add WP 3+ Functions & Theme Support
 function wpyaml_theme_support() {
 	// wp thumbnails (sizes handled in functions.php)
 	add_theme_support('post-thumbnails');
@@ -143,11 +138,8 @@ function wpyaml_theme_support() {
 			'footermenu' => __( 'Footer Navigation', 'wpyaml' ) // secondary nav in footer
 		)
 	);
-} /* end theme support */
+} 
 
-/*********************
-ACTIVE SIDEBARS
-*********************/  
 // Sidebars & Widgetizes Areas
 function wpyaml_register_sidebars() {
 	register_sidebar(array(
@@ -182,9 +174,6 @@ function wpyaml_register_sidebars() {
 	*/
 } 
 
-/*********************
-SEARCH FORM LAYOUT
-*********************/  
 // Search Form
 function wpyaml_wpsearch($form) {
 	$form = '<form role="search" method="get" id="searchform" class="ym-full" action="' . home_url( '/' ) . '" >
@@ -199,9 +188,6 @@ function wpyaml_wpsearch($form) {
 	return $form;
 } 
 
-/*********************
-OTHER CLEANUP ITEMS
-*********************/
 // remove the p from around imgs (http://css-tricks.com/snippets/wordpress/remove-paragraph-tags-from-around-images/)
 function wpyaml_filter_ptags_on_images($content){
    return preg_replace('/<p>\s*(<a .*>)?\s*(<img .* \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content);
@@ -214,6 +200,9 @@ function wpyaml_excerpt_more($more) {
 return '...  <a class="excerpt-read-more" href="'. get_permalink($post->ID) . '" title="'. __('Read', 'wpyaml') . get_the_title($post->ID).'">'. __('Read more &raquo;', 'wpyaml') .'</a>';
 }
 
+/*********************
+OTHER CLEANUP ITEMS
+*********************/
 // This is a modified the_author_posts_link() which just returns the link
 function wpyaml_get_the_author_posts_link() {
 	global $authordata;
@@ -241,6 +230,6 @@ FOOTER <3
 *********************/
 add_action( 'wp_footer', 'wpyaml_credits' );
 function wpyaml_credits() {
-	_e( '<p>This site was created using the clean and responsive <a href="http://wpyaml.com">Wordpress starter theme WP-YAML</a>,<br>based on the awesome <a href="http://www.yaml.de">YAML CSS framework</a> with <a href="https://github.com/djesse/yaml4-sass">YAML4 SASS</a>.</p>', 'wpyaml' );
+	_e( '<p>This site was created using the clean and responsive <a href="http://wpyaml.com">Wordpress starter theme</a> WP-YAML, based on the awesome <a href="http://www.yaml.de">YAML CSS framework</a>.</p>', 'wpyaml' );
 }
 ?>

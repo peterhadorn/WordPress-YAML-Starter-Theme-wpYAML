@@ -1,0 +1,24 @@
+/**
+ * WP YAML - Clean and responsive Wordpress starter theme
+ *
+ * WP YAML SCSS Imports
+ *
+ *  URL: http://wpyaml.com
+ *  Author: Peter Hadorn @peterhadorn
+ *  License: CC Attribution 3.0 http://creativecommons.org/licenses/by/3.0/
+ *   
+ *  
+ *  This is the WP YAML stylesheet where all theme-specific styling in addition to the YAML base comes together.
+ *  
+ *  Add your own styling in _custom.scss and/or edit this file and the imported files.
+ *  
+ * @package WP YAML
+ * @version 0.2 
+ * @since WP YAML 0.1.0
+ **/
+@import "wpyaml-var";       
+@import "layout";
+@import "forms";
+@import "pagination";
+@import "comments";
+@import "wpstyling"

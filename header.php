@@ -1,10 +1,11 @@
 <?php
 /**
- * WP YAML Wordpress starter theme
+ * WP YAML - Clean and responsive Wordpress starter theme
  *
  * Template for displaying the header
  *
  * @package WP YAML
+ * @version 0.2
  * @since WP YAML 0.1.0
  */
 ?>
@@ -34,20 +35,21 @@
 	<body <?php body_class(); ?>>
 		<header role="banner">
 			<div class="ym-wrapper"> 
-				<div class="header">
-					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<h1 id="logo"><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
-					<!-- if you'd like to use the site description you can un-comment it below -->
-					<?php // bloginfo('description'); ?>
+				<div class="ym-gbox header">
+						<h1 id="logo"><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
+						<?php // bloginfo('description'); ?>
 				</div>
 			</div> 
 		</header>			
 		<!-- Main navigation bar using YAML hlist -->
 		<nav role="navigation" class="ym-hlist headernav">
 			<div class="ym-wrapper"> 
-				<?php wpyaml_main_nav(); ?>
+				<div class="ym-gbox">
+					<?php wpyaml_main_nav(); ?>
+				</div>
 			</div> 
 		</nav>
 		<!-- Main Area Layout Wrapper -->
 		<div id="content">
 			<div class="ym-wrapper">
+				<div class="ym-gbox">

@@ -1,42 +1,38 @@
-/*  Welcome to WP-YAML :)
+/*  Welcome to WP-YAML v0.2
  *  URL: http://wpyaml.com
  *  Author: Peter Hadorn @peterhadorn
  *  
  *  License: CC Attribution 3.0 http://creativecommons.org/licenses/by/3.0/
  *   
- *  CREDITS: Big thanks & kudos to these awesome projects!
+ *  CREDITS: Big thanks to these awesome projects!
  * 
  *  - YAML 4 CSS Framework - http://www.yaml.de/
- *  - YAML 4 SASS - https://github.com/djesse/yaml4-sass
  *  - Bones - http://themble.com/bones/
  *  - required+ Foundation  - http://themes.required.ch/
  * 
- *  YAML, YAML 4 SASS and WP YAML all come together in this style.scss, which compiles into css/style.css that is used in the template.
+ *  YAML and WP YAML all come together in this style.scss, which compiles into css/style.css that is used in the template.
  * 
- * Plain CSS users can simply rename css/style-cssplain.css to css/style.css and edit that file.
+ * Plain CSS users can simply edit css/style.css as they like (it is supplied in uncompressed version).
  * 
  * The theme currently only uses a flexible grids full page layout. Different layout versions may be added in the future. 
  * 
  * @package WP YAML
  * @since WP YAML 0.1.0
  */
-   
-/* Google Font API 
-@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Droid+Sans:700");*/
-
+ 
 /* YAML4-SASS  */
-@import "yaml/yaml_globals",
-		"yaml/mixins/yaml_mixins_core",
-		"yaml/core/base",
-		"yaml/navigation/hlist",	
-		"yaml/forms/gray-theme", 
-		"yaml/screen/typography",
-		"yaml/screen/screen-FULLPAGE-layout",
-		"yaml/print/print";
+@import "yaml-sass/yaml-var-globals",
+		"yaml-sass/yaml-var-typography",
+		"yaml-sass/mixins/yaml-mixins-core",
+		"yaml-sass/core/base",
+		"yaml-sass/navigation/hlist",	
+		"yaml-sass/forms/gray-theme",
+		"yaml-sass/screen/typography",
+		"yaml-sass/screen/screen-FULLPAGE-layout",
+		"yaml-sass/print/print";
 
-/* WP-YAML */
-@import "wpyaml/wpyaml";
-
+/* WP-YAML */  
+@import "wpyaml-sass/wpyaml";
   
 /* Your Custom Styles */
-@import "custom";
+@import "custom"; 

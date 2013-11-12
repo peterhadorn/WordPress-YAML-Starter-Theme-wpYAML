@@ -1,10 +1,11 @@
 <?php
 /**
- * WP YAML Wordpress starter theme
+ * WP YAML - Clean and responsive Wordpress starter theme
  *
  * Template for displaying comments
  *
  * @package WP YAML
+ * @version 0.2 
  * @since WP YAML 0.1.0
  */
 ?><div id="comments">
@@ -48,7 +49,6 @@
 			<p><?php _e("Comments are closed.", "wpyaml"); ?></p>
 		<?php endif; ?>
 <?php endif; ?>
-
 
 <?php if ( comments_open() ) : ?>
 	<h3><?php comment_form_title( __('Leave a Reply', 'wpyaml'), __('Leave a Reply to %s', 'wpyaml' )); ?></h3>

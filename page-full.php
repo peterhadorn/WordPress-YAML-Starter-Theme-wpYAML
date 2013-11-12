@@ -2,14 +2,14 @@
 /**
  * WP YAML - Clean and responsive Wordpress starter theme
  *
- * Full-Width Page Template
+ * Template Name: Full-Width Page Template
  *
  * @package WP YAML
+ * @version 0.2 
  * @since WP YAML 0.1.0
- */
+ **/
 get_header(); ?>
-				<div class="ym-grid">  <!-- open main grid  -->
-					<div id="main" class="fullwidth main" role="main">  <!-- open content container full-width-->
+					<div id="main" class="fullwidth main" role="main">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 							<article <?php post_class() ?> id="post-<?php the_ID(); ?>" role="article" itemscope itemtype="http://schema.org/BlogPosting">
 								<header>
@@ -21,7 +21,7 @@ get_header(); ?>
 								<section itemprop="articleBody">
 									<?php the_content(); ?>
 								</section> 
-								<?php // comments_template(); // uncomment if you want to use them ?>
+								<?php // comments_template(); uncomment if you want to use them! ?>
 							</article> 
 						<?php endwhile; else : ?>
 							<article id="post-not-found">
@@ -34,5 +34,4 @@ get_header(); ?>
 							</article>
 						<?php endif; ?>
 					</div> 
-				</div> 
 <?php get_footer(); ?>
