@@ -1,0 +1,24 @@
+// Pagination & Comments
+#content ul.page-numbers, #comments nav ul {
+  display: block;
+  margin-left: -1em;
+  li {
+    float: left;
+    display: block;
+    height: 24px;
+    color: #999;
+    margin-left: 1em;
+    a {
+      display: block;
+      padding: 1px 7px 1px;
+    }
+    span.current {
+      background-color: #4D87C7;
+      color: white;
+      text-decoration: none;
+      cursor: default;
+      display: block;
+      padding: 1px 7px 1px;
+    }
+  }
+}

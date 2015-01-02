@@ -1,0 +1,32 @@
+/*
+ *  wpYAML v1.0 - Free Wordpress Starter Theme
+ *  URL:  http://www.hadornag.ch/wpYAML/
+ *  Author: Peter Hadorn @peterhadorn
+ *  License: GNU General Public License v3.0
+ * 
+ *  YAML and wpYAML come together in this style.scss, which compiles into the compressed css/style.css that is used in the front-end.
+ * 
+ * Plain CSS users can start editing css/style.css in the blank child-theme to add their custom styles.
+ * 
+ * Sass developers can add custom styles in _custom.scss, and/or edit the wpyaml-sass files.
+ * 
+ * The theme currently only uses a flexible grids full page layout. Different layout versions may be added in the future. 
+ * 
+ */
+
+// Import YAML
+@import "yaml-sass/yaml-var-globals",
+		"yaml-sass/yaml-var-typography",
+		"yaml-sass/mixins/yaml-mixins-core",
+		"yaml-sass/core/base",
+		"yaml-sass/navigation/hlist",	
+		"yaml-sass/forms/gray-theme",
+		"yaml-sass/screen/typography",
+		"yaml-sass/screen/screen-FULLPAGE-layout",
+		"yaml-sass/print/print";
+
+// Import wpYAML
+@import "wpyaml-sass/wpyaml";
+  
+// Import Custom Sass Styles
+@import "custom"; 

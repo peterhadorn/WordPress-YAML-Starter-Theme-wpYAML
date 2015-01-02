@@ -1,0 +1,56 @@
+/*************** CUSTOM CSS FROM HERE ***************/
+body > header {
+	background:#FF5252;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #444!important;
+}
+a {
+	color: #FF5252;
+}
+a:hover {
+	background-color: #FF5252;
+}
+.intropics img {
+	max-height:60px;
+}
+body > footer {
+	background:#FF5252;
+}
+body > footer p {
+	color:#eee;
+}
+body > footer a {
+	color:#eee;
+	text-decoration:underline;
+}
+body > footer a:hover {
+	color:#eee;
+	text-decoration:underline;
+	background:transparent;
+}
+header div.header h1 a:hover {
+	background: transparent;	
+}
+header div.header p.u1 {
+	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 342.8571429%;
+	line-height: 0.875;
+	margin: 0;
+	padding: 0.875em 0;
+}
+header div.header p.u1 a {
+	color: #eee;	
+}
+header div.header p.u1 a:hover {
+	color: #eee;
+	background: transparent;	
+}
+.warning {
+	background: #ccc;
+}
+#lang_sel_list img.iclflag {
+	width: 35px;
+	height: 35px;
+}

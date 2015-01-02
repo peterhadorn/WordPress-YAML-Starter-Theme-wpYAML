@@ -1,0 +1,25 @@
+/* WP YAML is a responsive WordPress starter theme based on the YAML CSS framework. */
+
+/* TEAM */
+
+Peter Hadorn & Team
+http://bizwp.com
+http://www.hadornag.ch
+Twitter: @peterhadorn
+wpYAML: http://www.hadornag.ch/wpYAML/
+
+/* THANKS */
+
+YAML
+http://yaml.de/
+
+BONES
+http://themble.com/bones/
+
+WordPress
+http://wordpress.org/
+
+/* SITE */
+
+Standards: HTML5, CSS
+CMS: WordPress

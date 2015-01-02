@@ -1,0 +1,73 @@
+// boxsizing, include of boxsizing.htc for IE 6 & 7 is in lib/scripts.php
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+// TOTAL SITE WIDTH
+.ym-wrapper {
+		max-width: $total-site-width;
+	}
+
+// COLUMNS
+
+.ym-col1 { // content
+  float: left; 
+  width: 75%;
+  .ym-cbox {
+    padding: 0 20px 0 0;
+    } 
+} 
+.ym-col3 { // sidebar
+  margin: 0 0 0 75%;
+  .ym-cbox {
+    padding: 0 0 0 20px;
+    }
+} 
+
+// LINEARIZATION LEVEL 1
+@media screen and (max-width: 760px) {
+  // linearization for grid module
+  .linearize-level-1 {
+    display: block;
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+    > [class*="ym-g"] {
+      display: block;
+      float: none;
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+      > [class*="ym-gbox"] {
+        overflow: hidden;
+        // optional for containing floats
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}	
+
+// Add some air around navigations and footer
+nav.headernav, p.copyright {
+  margin-bottom: $main-vertical-margin;
+  }   
+nav.footernav {
+  margin-top: $main-vertical-margin;
+}
+footer {
+  padding: $main-vertical-margin 0;
+  p {
+    text-align:center;
+    }
+  }   
+
+// FONT SCALING
+body {
+    font-size: $base-font-scale * 100%;
+  }  
+
+
+// Small font size
+small, p.small {
+  font-size: ($ym-text-small-font-size/$ym-default-font-size)*100%;
+}

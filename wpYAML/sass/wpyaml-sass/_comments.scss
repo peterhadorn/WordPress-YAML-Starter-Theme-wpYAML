@@ -1,0 +1,19 @@
+#comments nav ul {
+  @extend ul.page-numbers;
+}  
+#comments nav {
+  background: transparent;
+  color: $ym-text-color;
+  } 
+#comments ol {
+  font-weight: 700;
+  li {
+    margin:2em 0 0 1.5em;
+    &:first-child {
+    margin:1em 0 0 1.5em;
+    }
+    article {
+    font-weight: 400;
+    }
+  } 
+}  

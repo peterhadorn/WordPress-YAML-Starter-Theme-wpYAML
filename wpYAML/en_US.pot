@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpyaml\n"
+"POT-Creation-Date: 2015-01-01 20:37+0100\n"
+"PO-Revision-Date: 2015-01-01 20:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Sorry, Not Found"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"This is an epic 404 error, please try to use the navigation or the search "
+"feature to find what you're looking for..."
+msgstr ""
+
+#: archive.php:16
+msgid "Posts by Category:"
+msgstr ""
+
+#: archive.php:20
+msgid "Posts by Tag:"
+msgstr ""
+
+#: archive.php:27
+msgid "Posts By:"
+msgstr ""
+
+#: archive.php:31
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:35
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:39
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:48 index.php:20 search.php:20 single.php:20
+#, php-format
+msgid ""
+"Posted <time datetime=\"%1$s\">%2$s</time> by <span>%3$s</span> &amp; filed "
+"under %4$s."
+msgstr ""
+
+#: archive.php:65 index.php:35 page-full.php:29 single.php:35
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: archive.php:68
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+msgid "<span>No</span> Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "<span>One</span> Comment"
+msgstr ""
+
+#: comments.php:29 comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30 comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+msgid "No comments yet."
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:54
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:57
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:61
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:61
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:61
+msgid "Log out"
+msgstr ""
+
+#: comments.php:61 lib/pagination.php:29
+msgid "&raquo;"
+msgstr ""
+
+#: comments.php:64
+msgid "Name"
+msgstr ""
+
+#: comments.php:64 comments.php:68
+msgid "(required)"
+msgstr ""
+
+#: comments.php:65
+msgid "Your Name*"
+msgstr ""
+
+#: comments.php:68
+msgid "Mail"
+msgstr ""
+
+#: comments.php:68
+msgid "(will not be published)"
+msgstr ""
+
+#: comments.php:69
+msgid "Your E-Mail*"
+msgstr ""
+
+#: comments.php:73
+msgid "Website"
+msgstr ""
+
+#: comments.php:74
+msgid "Got a website?"
+msgstr ""
+
+#: comments.php:78
+msgid "Comment"
+msgstr ""
+
+#: comments.php:79
+msgid "Your Comment here..."
+msgstr ""
+
+#: comments.php:82
+msgid "Submit"
+msgstr ""
+
+#: comments.php:85
+msgid "You can use these tags"
+msgstr ""
+
+#: index.php:24
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: index.php:38 page-custom.php:33 page-full.php:32 page.php:33 single.php:38
+msgid ""
+"Uh Oh. Something is missing. Try double checking things, or use the "
+"navigation."
+msgstr ""
+
+#: lib/comments.php:38
+#, php-format
+msgid "<cite>%s</cite>"
+msgstr ""
+
+#: lib/comments.php:39 page-custom.php:19 page-full.php:18 page.php:19
+#: search.php:20
+msgid "F jS, Y"
+msgstr ""
+
+#: lib/comments.php:40
+msgid "(Edit)"
+msgstr ""
+
+#: lib/comments.php:43
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/custom-post-type.php:32
+msgid "Custom Types"
+msgstr ""
+
+#: lib/custom-post-type.php:33
+msgid "Custom Post"
+msgstr ""
+
+#: lib/custom-post-type.php:34
+msgid "All Custom Posts"
+msgstr ""
+
+#: lib/custom-post-type.php:35
+msgid "Add New"
+msgstr ""
+
+#: lib/custom-post-type.php:36
+msgid "Add New Custom Type"
+msgstr ""
+
+#: lib/custom-post-type.php:37
+msgid "Edit"
+msgstr ""
+
+#: lib/custom-post-type.php:38
+msgid "Edit Post Types"
+msgstr ""
+
+#: lib/custom-post-type.php:39
+msgid "New Post Type"
+msgstr ""
+
+#: lib/custom-post-type.php:40
+msgid "View Post Type"
+msgstr ""
+
+#: lib/custom-post-type.php:41
+msgid "Search Post Type"
+msgstr ""
+
+#: lib/custom-post-type.php:42
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: lib/custom-post-type.php:43
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: lib/custom-post-type.php:46
+msgid "This is the example custom post type"
+msgstr ""
+
+#: lib/custom-post-type.php:83
+msgid "Custom Categories"
+msgstr ""
+
+#: lib/custom-post-type.php:84
+msgid "Custom Category"
+msgstr ""
+
+#: lib/custom-post-type.php:85
+msgid "Search Custom Categories"
+msgstr ""
+
+#: lib/custom-post-type.php:86
+msgid "All Custom Categories"
+msgstr ""
+
+#: lib/custom-post-type.php:87
+msgid "Parent Custom Category"
+msgstr ""
+
+#: lib/custom-post-type.php:88
+msgid "Parent Custom Category:"
+msgstr ""
+
+#: lib/custom-post-type.php:89
+msgid "Edit Custom Category"
+msgstr ""
+
+#: lib/custom-post-type.php:90
+msgid "Update Custom Category"
+msgstr ""
+
+#: lib/custom-post-type.php:91
+msgid "Add New Custom Category"
+msgstr ""
+
+#: lib/custom-post-type.php:92
+msgid "New Custom Category Name"
+msgstr ""
+
+#: lib/custom-post-type.php:106
+msgid "Custom Tags"
+msgstr ""
+
+#: lib/custom-post-type.php:107
+msgid "Custom Tag"
+msgstr ""
+
+#: lib/custom-post-type.php:108
+msgid "Search Custom Tags"
+msgstr ""
+
+#: lib/custom-post-type.php:109
+msgid "All Custom Tags"
+msgstr ""
+
+#: lib/custom-post-type.php:110
+msgid "Parent Custom Tag"
+msgstr ""
+
+#: lib/custom-post-type.php:111
+msgid "Parent Custom Tag:"
+msgstr ""
+
+#: lib/custom-post-type.php:112
+msgid "Edit Custom Tag"
+msgstr ""
+
+#: lib/custom-post-type.php:113
+msgid "Update Custom Tag"
+msgstr ""
+
+#: lib/custom-post-type.php:114
+msgid "Add New Custom Tag"
+msgstr ""
+
+#: lib/custom-post-type.php:115
+msgid "New Custom Tag Name"
+msgstr ""
+
+#: lib/init.php:137 lib/menus.php:37
+msgid "Main Navigation"
+msgstr ""
+
+#: lib/init.php:138 lib/menus.php:55
+msgid "Footer Navigation"
+msgstr ""
+
+#: lib/init.php:147
+msgid "Sidebar 1"
+msgstr ""
+
+#: lib/init.php:148
+msgid "The first (primary) sidebar."
+msgstr ""
+
+#: lib/init.php:181
+msgid "Search for:"
+msgstr ""
+
+#: lib/init.php:200
+msgid "Read"
+msgstr ""
+
+#: lib/init.php:200 search.php:24
+msgid "Read more &raquo;"
+msgstr ""
+
+#: lib/init.php:214
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: lib/init.php:233
+msgid ""
+"<p>This site was created using the clean and responsive <a href=\"http://www."
+"hadornag.ch/wpYAML/\">free WordPress starter theme</a> wpYAML, based on the "
+"<a href=\"http://www.yaml.de\">YAML CSS framework</a>.</p>"
+msgstr ""
+
+#: lib/menus.php:21
+#, php-format
+msgid ""
+"Please assign a menu to the primary menu location under %1$s or %2$s the "
+"design."
+msgstr ""
+
+#: lib/menus.php:22
+#, php-format
+msgid "<a href=\"%s\">Menus</a>"
+msgstr ""
+
+#: lib/menus.php:25
+#, php-format
+msgid "<a href=\"%s\">Customize</a>"
+msgstr ""
+
+#: lib/pagination.php:28
+msgid "&laquo;"
+msgstr ""
+
+#: page-custom.php:19 page-full.php:18 page.php:19
+#, php-format
+msgid "Posted <time datetime=\"%1$s\">%2$s</time> by <span>%3$s</span>."
+msgstr ""
+
+#: page-custom.php:23 page.php:23
+msgid "Pages:"
+msgstr ""
+
+#: page-custom.php:30 page.php:30
+msgid "Oops, Page Not Found!"
+msgstr ""
+
+#: search.php:13
+msgid "Search Results for:"
+msgstr ""
+
+#: search.php:35
+msgid "Sorry, No Results."
+msgstr ""
+
+#: search.php:38
+msgid "Try your search again."
+msgstr ""
+
+#: sidebar.php:18
+msgid "Please activate some Widgets."
+msgstr ""

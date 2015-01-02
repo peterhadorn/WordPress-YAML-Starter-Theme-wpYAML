@@ -1,0 +1,37 @@
+// Hide label in search Form
+div.ym-fbox-text label.hide {
+  display:none;
+}
+
+// Forms div
+input, textarea {
+    font-family: $ym-font-serif;
+  }
+#commentform  {
+  width:50%;
+  .ym-fbox-text {
+  margin-top:1em;
+  input, textarea {
+    line-height: 1em;
+    padding: .25em .3em;
+    }
+  }
+}
+#searchform {
+  .ym-fbox-text {
+    width: 50%;
+    float:left;
+    input, textarea {
+      line-height: 1em;
+      padding: .25em .3em;
+      }
+    }
+    .ym-fbox-button {
+    float: left;
+    width: 40%;
+    margin: 0 0 $main-vertical-margin 10%;
+    input {
+    font-family: $ym-font-serif;
+    }
+  }
+}
