@@ -12,7 +12,21 @@
  * @since WP YAML 0.1.0
  * 
  *
- *********************
+ */
+// Set the content width
+if ( ! isset( $content_width ) ) {
+	$content_width = 900;
+}
+// Let WP manage title
+add_theme_support( 'title-tag' );
+
+// Load textdomain, make theme available for translation
+add_action('after_setup_theme', 'wpyaml_setup');
+function wpyaml_setup(){
+    load_theme_textdomain('wpyaml', get_template_directory() . '/languages');
+}
+
+/*********************
  * Include wpYAML components - DO NOT REMOVE
  *********************/
 

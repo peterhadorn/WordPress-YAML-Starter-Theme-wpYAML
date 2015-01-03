@@ -10,22 +10,7 @@
  * @package WP YAML
  * @since WP YAML 0.1.0
  * 
- *
- /*********************
-COMMENTS 
-*********************/
-// add a default-gravatar to options - thanks to Frank Bueltge http://bueltge.de/avatare-zum-standard-von-wordpress-hinzufuegen/852/
-
-if ( !function_exists('fb_addgravatar') ) {
-	function fb_addgravatar( $avatar_defaults ) {
-		$myavatar = get_bloginfo('template_directory') . '/lib/images/wy.jpg';
-		$avatar_defaults[$myavatar] = 'WP-YAML Gravatar';
-		return $avatar_defaults;
-	}
-
-	add_filter( 'avatar_defaults', 'fb_addgravatar' );
-}
-
+ */
 // Custom comments layout function
 function wpyaml_comments($comment, $args, $depth) {
    $GLOBALS['comment'] = $comment; ?>

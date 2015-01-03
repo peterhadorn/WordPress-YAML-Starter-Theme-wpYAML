@@ -25,11 +25,11 @@
 			<div class="ym-wrapper">
 				<div class="ym-gbox">				
 					<div class="footer">
-						<p class="copyright">&copy; <?php echo date('Y'); ?> <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a><?php _e( ', all rights reserved.', 'wpyaml' ); ?></p>
+						<p class="copyright">&copy; <?php echo date('Y'); ?> <a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a><?php _e( ', all rights reserved.', 'wpyaml' ); ?></p>
 						<?php wp_footer(); ?>
 					</div>
 				</div>
 			</div> 
 		</footer>
 	</body>
-</html> <!-- the end, my friend :) -->
+</html> <!-- this is the end, my friend :) -->

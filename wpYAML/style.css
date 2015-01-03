@@ -4,10 +4,10 @@ Theme URI: http://www.hadornag.ch/wpYAML/
 Author: Peter Hadorn @peterhadorn
 Author URI: http://www.hadornag.ch/
 Description: <a href="http://www.hadornag.ch/wpYAML/" title="Free Wordpress Starter Theme">wpYAML</a> is a clean and responsive starter theme for rapid WordPress development. It's based on the <a href="http://yaml.de/" title="YAML">YAML CSS framework</a>, it uses a minimal code structure optimised for performance, and it supports Sass. 
-Tags: responsive, starter, base, starter-theme, yaml, grid, framework, custom-menu, custom-background, widgets, clean, lean, slim, white
+Version: 1.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl.html
-Version: 1.0 based on YAML 4.1.2
+Tags: white, black, red, two-columns, right-sidebar, fluid-layout, responsive-layout, translation-ready, custom-menu, full-width-template, threaded-comments
 Text Domain: wpyaml
 
 Plain CSS users can start editing css/style.css in the blank child-theme to add their custom styles

@@ -28,7 +28,14 @@ get_header(); ?>
 									<footer>
 										<?php the_tags(); ?>
 									</footer>
-									<?php comments_template(); ?>
+
+									<?php $customcomments=true; // set to false if you want the default WordPres comments
+									if ($customcomments) {
+										comments_template();
+									} else {
+										comment_form();
+									}
+									?>
 								</article> 
 							<?php endwhile; ?>
 							<?php else : ?>

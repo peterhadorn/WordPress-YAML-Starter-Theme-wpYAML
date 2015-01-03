@@ -13,7 +13,6 @@
 /*********************
 INITIALIZE wpYAML
 *********************/
-
 // we're firing all out initial functions at the start
 add_action('after_setup_theme','wpyaml_init', 16);
 
@@ -112,23 +111,9 @@ function wpyaml_theme_support() {
 	    'admin-preview-callback' => ''
 	    )
 	);
-	// rss thingy
+	// rss
 	add_theme_support('automatic-feed-links');
 	// to add header image support go here: http://themble.com/support/adding-header-background-image-support/ and http://make.wordpress.org/themes/2012/04/06/updating-custom-backgrounds-and-custom-headers-for-wordpress-3-4/
-	// adding post format support
-	add_theme_support( 'post-formats',
-		array(
-			'aside',              // title less blurb
-			'gallery',            // gallery of images
-			'link',                 // quick link to other site
-			'image',        	// an image
-			'quote',            	// a quick quote
-			'status',           	// a Facebook like status update
-			'video',          	// video
-			'audio',             	// audio
-			'chat'               	// chat transcript
-		)
-	);
 	// wp menus
 	add_theme_support( 'menus' );
 	// registering wp3+ menus
@@ -224,21 +209,9 @@ function remove_category_list_rel( $output ) {
 add_filter( 'wp_list_categories', 'remove_category_list_rel' );
 add_filter( 'the_category', 'remove_category_list_rel' );
 
-
-/*********************
-FOOTER <3
-*********************/
+// Footer <3
 add_action( 'wp_footer', 'wpyaml_credits' );
 function wpyaml_credits() {
 	_e( '<p>Proudly powered by <a href="http://wordpress.org/">WordPress</a>, the <a href="http://www.hadornag.ch/wpYAML/">free WordPress starter theme</a> wpYAML, and the <a href="http://www.yaml.de">YAML CSS framework</a>.</p>', 'wpyaml' );
 }
-
-/*********************
-LANGUAGE TEXTDOMAIN
-*********************/
-add_action('after_setup_theme', 'my_theme_setup');
-function my_theme_setup(){
-    load_theme_textdomain('wpyaml', get_template_directory() . '/languages');
-}
-
 ?>

@@ -19,7 +19,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
+		<title><?php wp_title('|', true, 'left'); ?></title>
 
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
@@ -30,7 +30,7 @@
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
-		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
+		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo esc_url(home_url()); ?>/feed/">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<?php wp_head(); ?>
 	</head>
@@ -38,7 +38,7 @@
 		<header role="banner">
 			<div class="ym-wrapper"> 
 				<div class="ym-gbox header">
-						<h1 id="logo"><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
+						<h1 id="logo"><a href="<?php echo esc_url(home_url()); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
 						<?php // bloginfo('description'); ?>
 				</div>
 			</div> 

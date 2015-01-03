@@ -56,8 +56,8 @@ a img {
 a:hover img {
   background-color:transparent!important;
 }
-// Image alignment
-img {
+// Image, quote & caption alignment
+img, blockquote, .wpcaption {
   &.alignleft {
     float: left;
     display: inline;
@@ -73,7 +73,33 @@ img {
     margin: 1em auto;
   }
 }
+// wp-caption & gallery-caption
+.wp-caption, .wp-caption.alignleft, .wp-caption.alignright, .wp-caption.aligncenter {
+  margin-bottom: 1em;
+}
+.wp-caption-text, .gallery-caption  {
+  color: $ym-blockquote-text-color;
+  font-family: $ym-font-sans;
+  font-size: 1em;
+  line-height: 1.5;
+}
 
+// sticky etc
+.sticky-post {
+  background-color: $header-title-color;
+}
+.updated:not(.published) {
+  display: none;
+}
+.sticky .posted-on {
+  display: none;
+}
+.bypostauthor > article .fn:after {
+  content: "\f304";
+  position: relative;
+  top: 5px;
+  left: 3px;
+}
 // Everything responsive
 img, video, audio, embed, object, input, iframe {
     max-width: 100%;

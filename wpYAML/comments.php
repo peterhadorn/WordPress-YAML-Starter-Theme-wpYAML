@@ -60,7 +60,7 @@
 	<?php else : ?>
 	<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform" class="ym-full" >
 	<?php if ( is_user_logged_in() ) : ?>
-	<p><?php _e("Logged in as", "wpyaml"); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e("Log out of this account", "wpyaml"); ?>"><?php _e("Log out", "wpyaml"); ?> <?php _e("&raquo;", "wpyaml"); ?></a></p>
+		<p><?php _e("Logged in as", "wpyaml"); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e("Log out of this account", "wpyaml"); ?>"><?php _e("Log out", "wpyaml"); ?> <?php _e("&raquo;", "wpyaml"); ?></a></p>
 	<?php else : ?>
 		<div class="ym-fbox-text">
 			<label for="author"><?php _e("Name", "wpyaml"); ?> <sup class="ym-required"><?php if ($req) _e("(required)"); ?></sup></label>
