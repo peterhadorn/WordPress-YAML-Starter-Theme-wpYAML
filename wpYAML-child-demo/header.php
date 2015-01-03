@@ -38,7 +38,11 @@
 			<div class="ym-wrapper"> 
 				<div class="ym-gbox header">
 						<?php if (is_front_page() ) : ?>
-							<h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php _e( 'Free WordPress Starter Theme', 'wpyaml' ); ?></a></h1>
+							<?php if ( ICL_LANGUAGE_CODE=='en' ) : ?>
+								<h1><a href="<?php bloginfo('url'); ?>" title="Free WordPress Starter Theme">Free WordPress Starter Theme</a></h1>
+							<?php else: ?>
+								<h1><a href="<?php bloginfo('url'); ?>" title="Gratis WordPress Starter Theme">Gratis WordPress Starter Theme</a></h1>
+							<?php endif; ?>
 						<?php else : ?>
 							<p class="u1"><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php _e( 'Free WordPress Starter Theme', 'wpyaml' ); ?></a></p>
 						<?php endif; ?>

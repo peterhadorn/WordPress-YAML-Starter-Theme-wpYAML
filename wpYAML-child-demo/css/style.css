@@ -57,3 +57,8 @@ header div.header p.u1 a:hover {
 #lang_sel_list {
 	margin-left: 0.9em;
 }
+.more-link {
+  float: none;
+  display: block;
+  margin: 1em 0;
+}
