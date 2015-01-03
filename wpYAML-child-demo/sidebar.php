@@ -10,7 +10,11 @@
  */
 ?>
 	<div id="sidebar1" class="ym-cbox sidebar" role="complementary">
-		<h4><?php _e( 'Language selection', 'wpyaml' ); ?></h4>
+		<?php if ( ICL_LANGUAGE_CODE=='en' ) : ?>
+			<h4>Language selection</h4>
+		<?php else: ?>
+			<h4>Sprachwahl</h4>
+		<?php endif; ?>
 		<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
 			<?php dynamic_sidebar( 'sidebar1' ); ?>
 		<?php else : ?>
@@ -19,5 +23,4 @@
 				<p class="box warning"><?php _e("Please activate some Widgets.", "yaml");  ?></p>
 			</div>
 		<?php endif; ?>
-		<!-- <?php wpyaml_wpsearch(); ?>-->
 	</div>

@@ -54,3 +54,6 @@ header div.header p.u1 a:hover {
 	width: 35px;
 	height: 35px;
 }
+#lang_sel_list {
+	margin-left: 0.9em;
+}

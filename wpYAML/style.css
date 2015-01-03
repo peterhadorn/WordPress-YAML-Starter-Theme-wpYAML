@@ -12,6 +12,6 @@ Text Domain: wpyaml
 
 Plain CSS users can start editing css/style.css in the blank child-theme to add their custom styles
 
-Sass developers can work in a child theme, or edit _custom.scss and/or the wpyaml-sass files.
+Sass developers can add custom styles in _custom.scss, and/or edit the wpyaml-sass files.
 
 ******************************************************************/
