@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP YAML\n"
-"POT-Creation-Date: 2015-01-02 18:38+0100\n"
-"PO-Revision-Date: 2015-01-02 18:38+0100\n"
+"POT-Creation-Date: 2015-03-12 12:27+0100\n"
+"PO-Revision-Date: 2015-03-12 12:28+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -18,42 +18,42 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:15
+#: 404.php:18
 msgid "Sorry, Not Found"
 msgstr "Bedaure, nichts gefunden"
 
-#: 404.php:18
+#: 404.php:21
 msgid ""
 "This is an epic 404 error, please try to use the navigation or the search "
 "feature to find what you're looking for..."
 msgstr ""
 "Seite nicht gefunden - bitte benutzen Sie die Navigation oder die Suche."
 
-#: archive.php:16
+#: archive.php:19
 msgid "Posts by Category:"
 msgstr "Kategorie:"
 
-#: archive.php:20
+#: archive.php:23
 msgid "Posts by Tag:"
 msgstr "Tag:"
 
-#: archive.php:27
+#: archive.php:30
 msgid "Posts By:"
 msgstr "Von:"
 
-#: archive.php:31
+#: archive.php:34
 msgid "Daily Archives:"
 msgstr "Tägliches Archiv:"
 
-#: archive.php:35
+#: archive.php:38
 msgid "Monthly Archives:"
 msgstr "Monatsarchiv:"
 
-#: archive.php:39
+#: archive.php:42
 msgid "Yearly Archives:"
 msgstr "Jahresarchiv:"
 
-#: archive.php:48 index.php:20 search.php:20 single.php:20
+#: archive.php:51 index.php:22 search.php:23 single.php:22
 #, php-format
 msgid ""
 "Posted <time datetime=\"%1$s\">%2$s</time> by <span>%3$s</span> &amp; filed "
@@ -61,157 +61,157 @@ msgid ""
 msgstr ""
 "Verfasst am <time datetime=\"%1$s\">%2$s</time> von <span>%3$s</span> in %4$s."
 
-#: archive.php:65 index.php:35 page-full.php:29 single.php:35
+#: archive.php:68 index.php:37 page-full.php:31 single.php:44
 msgid "Oops, Post Not Found!"
 msgstr "Hoppla, Beitrag nicht gefunden!"
 
-#: archive.php:68
+#: archive.php:71
 msgid "Uh Oh. Something is missing. Try double checking things."
 msgstr "Uh Oh. Etwas fehlt. Bitte überprüfen Sie alles."
 
-#: comments.php:17
+#: comments.php:19
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 "﻿Dieser Beitrag ist durch ein Passwort geschützt. Geben Sie das Passwort ein, "
 "um die Kommentare anzuzeigen."
 
-#: comments.php:24
+#: comments.php:26
 msgid "<span>No</span> Comments"
 msgstr "<span>Keine</span> Kommentare"
 
-#: comments.php:24
+#: comments.php:26
 msgid "<span>One</span> Comment"
 msgstr "<span>Ein</span> Kommentar"
 
-#: comments.php:24
+#: comments.php:26
 msgid "<span>%</span> Comment"
 msgid_plural "<span>%</span> Comments"
 msgstr[0] "<span>%</span> Kommentar"
 msgstr[1] "<span>%</span> Kommentare"
 
-#: comments.php:29 comments.php:40
+#: comments.php:31 comments.php:42
 msgid "&larr; Older Comments"
 msgstr "&larr; Ältere Kommentare"
 
-#: comments.php:30 comments.php:41
+#: comments.php:32 comments.php:43
 msgid "Newer Comments &rarr;"
 msgstr "﻿Neuere Kommentare &rarr;"
 
-#: comments.php:47
+#: comments.php:49
 msgid "No comments yet."
 msgstr "Noch keine Kommentare"
 
-#: comments.php:49
+#: comments.php:51
 msgid "Comments are closed."
 msgstr "Kommentare sind geschlossen."
 
-#: comments.php:54
+#: comments.php:56
 msgid "Leave a Reply"
 msgstr "Hinterlassen Sie eine Antwort"
 
-#: comments.php:54
+#: comments.php:56
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Schreiben Sie eine Antwort zu %s"
 
-#: comments.php:57
+#: comments.php:59
 #, php-format
 msgid "You must be %1$slogged in%2$s to post a comment."
 msgstr "Du musst %1$slogged in%2$s, um einen Kommentar abzugeben."
 
-#: comments.php:61
+#: comments.php:63
 msgid "Logged in as"
 msgstr "Eingelogged als"
 
-#: comments.php:61
+#: comments.php:63
 msgid "Log out of this account"
 msgstr "Ausloggen"
 
-#: comments.php:61
+#: comments.php:63
 msgid "Log out"
 msgstr "Abmelden"
 
-#: comments.php:61 lib/pagination.php:29
+#: comments.php:63 lib/pagination.php:28
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: comments.php:64
+#: comments.php:66
 msgid "Name"
 msgstr "Name"
 
-#: comments.php:64 comments.php:68
+#: comments.php:66 comments.php:70
 msgid "(required)"
 msgstr "(benötigt)"
 
-#: comments.php:65
+#: comments.php:67
 msgid "Your Name*"
 msgstr "Ihr Name *"
 
-#: comments.php:68
+#: comments.php:70
 msgid "Mail"
 msgstr "E-Mail"
 
-#: comments.php:68
+#: comments.php:70
 msgid "(will not be published)"
 msgstr "(wird nicht veröffentlicht)"
 
-#: comments.php:69
+#: comments.php:71
 msgid "Your E-Mail*"
 msgstr "Ihre E-Mail*"
 
-#: comments.php:73
+#: comments.php:75
 msgid "Website"
 msgstr "Website"
 
-#: comments.php:74
+#: comments.php:76
 msgid "Got a website?"
 msgstr "Haben Sie eine Website?"
 
-#: comments.php:78
+#: comments.php:80
 msgid "Comment"
 msgstr "Kommentar"
 
-#: comments.php:79
+#: comments.php:81
 msgid "Your Comment here..."
 msgstr "Ihr Kommentar ..."
 
-#: comments.php:82
+#: comments.php:84
 msgid "Submit"
 msgstr "Senden"
 
-#: comments.php:85
+#: comments.php:87
 msgid "You can use these tags"
 msgstr "Sie können diese Tags benutzen"
 
-#: footer.php:26
+#: footer.php:28
 msgid ", all rights reserved."
 msgstr ", alle Rechte vorbehalten."
 
-#: index.php:20 lib/comments.php:39 page-custom.php:19 page-full.php:18
-#: page.php:19 search.php:20 single.php:20
+#: index.php:22 lib/comments.php:22 page-custom.php:21 page-full.php:20
+#: page.php:21 search.php:23 single.php:22
 msgid "F jS, Y"
 msgstr "d.m.Y"
 
-#: index.php:24
+#: index.php:26
 msgid "Continue reading &rarr;"
 msgstr "Weiterlesen &rarr;"
 
-#: index.php:38 page-custom.php:33 page-full.php:32 page.php:33 single.php:38
+#: index.php:40 page-custom.php:35 page-full.php:34 page.php:35 single.php:47
 msgid ""
 "Uh Oh. Something is missing. Try double checking things, or use the "
 "navigation."
 msgstr "Uh Oh. Etwas fehlt. Bitte überprüfen Sie alles."
 
-#: lib/comments.php:38
+#: lib/comments.php:21
 #, php-format
 msgid "<cite>%s</cite>"
 msgstr "<cite>%s</cite>"
 
-#: lib/comments.php:40
+#: lib/comments.php:23
 msgid "(Edit)"
 msgstr "(Bearbeiten)"
 
-#: lib/comments.php:43
+#: lib/comments.php:26
 msgid "Your comment is awaiting moderation."
 msgstr "Ihr Kommentar wird &uuml;berpr&uuml;ft."
 
@@ -347,56 +347,58 @@ msgstr "Benutzerdefiniertes Schlagwort hinzufügen"
 msgid "New Custom Tag Name"
 msgstr "Neues benutzerdefiniertes Schlagwort"
 
-#: lib/init.php:137 lib/menus.php:37
+#: lib/init.php:122 lib/menus.php:37
 msgid "Main Navigation"
 msgstr "Hauptnavigation"
 
-#: lib/init.php:138 lib/menus.php:55
+#: lib/init.php:123 lib/menus.php:55
 msgid "Footer Navigation"
 msgstr "Footer Navigation"
 
-#: lib/init.php:147
+#: lib/init.php:132
 msgid "Sidebar 1"
 msgstr "Sidebar 1"
 
-#: lib/init.php:148
+#: lib/init.php:133
 msgid "The first (primary) sidebar."
 msgstr "Die erste (primäre) Sidebar."
 
-#: lib/init.php:181
+#: lib/init.php:166
 msgid "Search for:"
 msgstr "Suche nach:"
 
-#: lib/init.php:182
+#: lib/init.php:167
 msgid "Search..."
 msgstr "Suche..."
 
-#: lib/init.php:185
+#: lib/init.php:170
 msgid "Search"
 msgstr "Suchen"
 
-#: lib/init.php:200
+#: lib/init.php:185
 msgid "Read"
 msgstr "Lesen"
 
-#: lib/init.php:200 search.php:24
+#: lib/init.php:185 search.php:27
 msgid "Read more &raquo;"
 msgstr "Weiterlesen &raquo;"
 
-#: lib/init.php:214
+#: lib/init.php:199
 #, php-format
 msgid "Posts by %s"
 msgstr "Beiträge von %s"
 
-#: lib/init.php:233
+#: lib/init.php:215
 msgid ""
 "<p>Proudly powered by <a href=\"http://wordpress.org/\">WordPress</a>, the <a "
 "href=\"http://www.hadornag.ch/wpYAML/\">free WordPress starter theme</a> "
-"wpYAML, and the <a href=\"http://www.yaml.de\">YAML CSS framework</a>.</p>"
+"wpYAML, and the <a href=\"http://www.yaml.de\" rel=\"nofollow\">YAML CSS "
+"framework</a>.</p>"
 msgstr ""
-"<p>Betrieben mit <a href=\"http://wordpress.org/\">WordPress</a>, dem <a href="
-"\"http://www.hadornag.ch/wpYAML/\">Gratis WordPress Starter Theme</a> wpYAML, "
-"und dem <a href=\"http://www.yaml.de\">YAML CSS framework</a>.</p>"
+"<p>Betrieben mit <a href=\"http://wordpress.org/\">WordPress</a>, dem  <a "
+"href=\"http://www.hadornag.ch/wpYAML/\">Gratis WordPress Starter Theme</a> "
+"wpYAML und dem <a href=\"http://www.yaml.de\" rel=\"nofollow\">YAML CSS "
+"Framework</a>.</p>"
 
 #: lib/menus.php:21
 #, php-format
@@ -416,39 +418,49 @@ msgstr "<a href=\"%s\">Menus</a>"
 msgid "<a href=\"%s\">Customize</a>"
 msgstr "<a href=\"%s\">Anpassen</a>"
 
-#: lib/pagination.php:28
+#: lib/pagination.php:27
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: page-custom.php:19 page-full.php:18 page.php:19
+#: page-custom.php:21 page-full.php:20 page.php:21
 #, php-format
 msgid "Posted <time datetime=\"%1$s\">%2$s</time> by <span>%3$s</span>."
 msgstr ""
 "Verfasst am <time datetime=\"\"%1$s\"\">%2$s</time> von <span>%3$s</span>."
 
-#: page-custom.php:23 page.php:23
+#: page-custom.php:25 page.php:25
 msgid "Pages:"
 msgstr "Seiten:"
 
-#: page-custom.php:30 page.php:30
+#: page-custom.php:32 page.php:32
 msgid "Oops, Page Not Found!"
 msgstr "Hoppla, Seite nicht gefunden!"
 
-#: search.php:13
+#: search.php:16
 msgid "Search Results for:"
 msgstr "Suchresultate für:"
 
-#: search.php:35
+#: search.php:38
 msgid "Sorry, No Results."
 msgstr "Sorry, für diesen Suchbegriff sind leider keine Ergebnisse vorhanden."
 
-#: search.php:38
+#: search.php:41
 msgid "Try your search again."
 msgstr "Versuchen Sie Ihre Suche erneut."
 
-#: sidebar.php:18
+#: sidebar.php:20
 msgid "Please activate some Widgets."
 msgstr "Bitte aktivieren Sie einige Widgets."
+
+#~ msgid ""
+#~ "<p>Proudly powered by <a href=\"http://wordpress.org/\">WordPress</a>, the "
+#~ "<a href=\"http://www.hadornag.ch/wpYAML/\">free WordPress starter theme</"
+#~ "a> wpYAML, and the <a href=\"http://www.yaml.de\">YAML CSS framework</a>.</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p>Betrieben mit <a href=\"http://wordpress.org/\">WordPress</a>, dem <a "
+#~ "href=\"http://www.hadornag.ch/wpYAML/\">Gratis WordPress Starter Theme</a> "
+#~ "wpYAML, und dem <a href=\"http://www.yaml.de\">YAML CSS framework</a>.</p>"
 
 #~ msgid ""
 #~ "<p>This site was created using the clean and responsive <a href=\"http://"

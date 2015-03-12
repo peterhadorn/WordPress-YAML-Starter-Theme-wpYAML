@@ -212,6 +212,6 @@ add_filter( 'the_category', 'remove_category_list_rel' );
 // Footer <3
 add_action( 'wp_footer', 'wpyaml_credits' );
 function wpyaml_credits() {
-	_e( '<p>Proudly powered by <a href="http://wordpress.org/">WordPress</a>, the <a href="http://www.hadornag.ch/wpYAML/">free WordPress starter theme</a> wpYAML, and the <a href="http://www.yaml.de">YAML CSS framework</a>.</p>', 'wpyaml' );
+	_e( '<p>Proudly powered by <a href="http://wordpress.org/">WordPress</a>, the <a href="http://www.hadornag.ch/wpYAML/">free WordPress starter theme</a> wpYAML, and the <a href="http://www.yaml.de" rel="nofollow">YAML CSS framework</a>.</p>', 'wpyaml' );
 }
 ?>
